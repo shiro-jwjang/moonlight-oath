@@ -1,0 +1,39 @@
+{
+	"short_name": "월영의 맹약",
+	"name": "월영의 맹약 — Moonlight Oath",
+	"description": "달빛 아래 맹세가 시작되는 한국어 비주얼 노벨",
+	"background_color": "#1a1a2e",
+	"theme_color": "#1a1a2e",
+	"orientation": "any",
+	"display": "fullscreen",
+	"start_url": "index.html",
+	"lang": "ko",
+	"icons": [
+		{
+			"src": "assets/icons/icon_48x48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "assets/icons/icon_96x96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "assets/icons/icon_128x128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "assets/icons/icon_192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "assets/icons/icon_512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
+	]
+}

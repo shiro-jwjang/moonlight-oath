@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="ko" itemscope itemtype="http://schema.org/WebPage">
+
+	<head prefix="og: http://ogp.me/ns#">
+
+		<title>월영의 맹약 — Moonlight Oath</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+		<meta name="description" content="달빛 아래 맹세가 시작되는 한국어 비주얼 노벨">
+		<meta name="keywords" content="비주얼 노벨, visual novel, 한국어, Korean, 월영의 맹약, Moonlight Oath">
+		<meta name="author" content="Moonlight Oath Team">
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="월영의 맹약 — Moonlight Oath" />
+		<meta property="og:description" content="달빛 아래 맹세가 시작되는 한국어 비주얼 노벨" />
+		<meta property="og:type" content="website" />
+
+		<!-- Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/icons/icon_192x192.png">
+
+		<!-- Apple -->
+		<meta name="apple-mobile-web-app-title" content="월영의 맹약">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<!-- Theme -->
+		<meta name="theme-color" content="#1a1a2e">
+
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="manifest" href="manifest.json">
+
+		<!-- Monogatari CSS -->
+		<link rel="stylesheet" href="./engine/core/monogatari.css">
+		<link rel="stylesheet" href="./style/main.css">
+
+		<!-- Monogatari JavaScript -->
+		<script src="./engine/debug/debug.js"></script>
+		<script src="./engine/core/monogatari.js"></script>
+		<script src="./js/options.js"></script>
+		<script src="./js/storage.js"></script>
+		<script src="./js/script.js"></script>
+		<script src="./js/main.js"></script>
+	</head>
+
+	<body>
+
+		<noscript>
+			<div class="middle text--center">
+				<h2>JavaScript가 필요합니다</h2>
+				<small>이 게임을 플레이하려면 JavaScript를 활성화해 주세요.</small>
+			</div>
+		</noscript>
+
+		<div id="monogatari">
+			<visual-novel>
+				<language-selection-screen></language-selection-screen>
+				<loading-screen></loading-screen>
+				<main-screen>
+					<main-menu></main-menu>
+				</main-screen>
+				<game-screen>
+					<dialog-log></dialog-log>
+					<text-box></text-box>
+					<quick-menu></quick-menu>
+				</game-screen>
+				<gallery-screen></gallery-screen>
+				<credits-screen></credits-screen>
+				<load-screen></load-screen>
+				<save-screen></save-screen>
+				<settings-screen></settings-screen>
+				<help-screen></help-screen>
+			</visual-novel>
+		</div>
+	</body>
+
+</html>

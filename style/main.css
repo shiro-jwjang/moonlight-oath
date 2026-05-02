@@ -1,0 +1,133 @@
+/* ============================================================
+ * 월영의 맹약 (Moonlight Oath) — Custom Styles
+ * Moonlight-themed visual novel styling
+ * ============================================================ */
+
+/* --- Base / Background --- */
+body {
+	background-color: #1a1a2e;
+	font-family: 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+}
+
+/* --- Main Screen --- */
+[main-screen] {
+	background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+[main-screen] [main-menu] h1 {
+	font-size: 3rem;
+	color: #e0e0ff;
+	text-shadow: 0 0 20px rgba(200, 200, 255, 0.5);
+	letter-spacing: 0.15em;
+}
+
+[main-screen] [main-menu] h2 {
+	color: #a8b5ff;
+	letter-spacing: 0.1em;
+}
+
+[main-menu] .button {
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(200, 200, 255, 0.2);
+	color: #c8c8ff;
+	transition: all 0.3s ease;
+}
+
+[main-menu] .button:hover {
+	background: rgba(200, 200, 255, 0.15);
+	border-color: rgba(200, 200, 255, 0.5);
+	color: #ffffff;
+}
+
+/* --- Game Screen / Text Box --- */
+[game-screen] {
+	background-color: #1a1a2e;
+}
+
+[text-box] {
+	background: linear-gradient(
+		to top,
+		rgba(10, 10, 30, 0.95) 0%,
+		rgba(20, 20, 50, 0.85) 100%
+	);
+	border-top: 1px solid rgba(200, 200, 255, 0.15);
+	backdrop-filter: blur(10px);
+}
+
+[text-box] [dialog] {
+	color: #e8e8ff;
+	font-size: 1.1rem;
+	line-height: 1.8;
+}
+
+[text-box] [who] {
+	font-weight: 600;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+}
+
+/* --- Quick Menu --- */
+[quick-menu] .button {
+	color: #a8b5ff;
+}
+
+[quick-menu] .button:hover {
+	color: #ffffff;
+}
+
+/* --- Choice Buttons --- */
+[choice-container] [choice] {
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(200, 200, 255, 0.2);
+	color: #c8c8ff;
+	transition: all 0.3s ease;
+}
+
+[choice-container] [choice]:hover {
+	background: rgba(200, 200, 255, 0.15);
+	border-color: rgba(200, 200, 255, 0.5);
+	color: #ffffff;
+}
+
+/* --- Loading Screen --- */
+[loading-screen] {
+	background: #1a1a2e;
+}
+
+[loading-screen] [loading-screen-content] {
+	color: #c8c8ff;
+}
+
+/* --- Settings / Save / Load Screens --- */
+.modal,
+[settings-screen],
+[save-screen],
+[load-screen] {
+	background-color: rgba(10, 10, 30, 0.95);
+	color: #e0e0ff;
+}
+
+/* --- Notification --- */
+.notification {
+	background: rgba(15, 15, 40, 0.9);
+	border: 1px solid rgba(200, 200, 255, 0.2);
+	color: #c8c8ff;
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(200, 200, 255, 0.3);
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(200, 200, 255, 0.5);
+}
