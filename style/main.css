@@ -14,19 +14,6 @@ html, body {
 	font-family: 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
 }
 
-/* --- Landscape Lock (CSS fallback) --- */
-@media screen and (orientation: portrait) {
-	#monogatari {
-		transform: rotate(90deg);
-		transform-origin: top left;
-		width: 100vh;
-		height: 100vw;
-		position: absolute;
-		top: 0;
-		left: 100vw;
-	}
-}
-
 /* --- Main Screen --- */
 [main-screen] {
 	background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);

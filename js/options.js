@@ -61,8 +61,8 @@ monogatari.settings({
 	'NarratorTypeAnimation': true,
 	'CenteredTypeAnimation': true,
 
-	// Orientation — 가로모드 강제
-	'Orientation': 'landscape-primary',
+	// Orientation
+	'Orientation': 'any',
 
 	// Skip speed (ms). 0 = disabled
 	'Skip': 0,
