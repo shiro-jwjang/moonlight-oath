@@ -4,9 +4,27 @@
  * ============================================================ */
 
 /* --- Base / Background --- */
-body {
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 	background-color: #1a1a2e;
 	font-family: 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+}
+
+/* --- Landscape Lock (CSS fallback) --- */
+@media screen and (orientation: portrait) {
+	#monogatari {
+		transform: rotate(90deg);
+		transform-origin: top left;
+		width: 100vh;
+		height: 100vw;
+		position: absolute;
+		top: 0;
+		left: 100vw;
+	}
 }
 
 /* --- Main Screen --- */
@@ -42,6 +60,23 @@ body {
 /* --- Game Screen / Text Box --- */
 [game-screen] {
 	background-color: #1a1a2e;
+}
+
+/* --- Character & Background Scaling (16:9 고정) --- */
+[data-content="visuals"] {
+	overflow: hidden;
+}
+
+[data-content="visuals"][data-ui="background"] {
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: cover;
+}
+
+[data-character] {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	object-fit: contain;
 }
 
 [text-box] {

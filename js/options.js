@@ -50,9 +50,9 @@ monogatari.settings({
 	// Service Workers
 	'ServiceWorkers': false,
 
-	// Aspect Ratio
+	// Aspect Ratio — 16:9 고정 (Visuals 영역만)
 	'AspectRatio': '16:9',
-	'ForceAspectRatio': 'None',
+	'ForceAspectRatio': 'Visuals',
 
 	// Text animation
 	'TypeAnimation': true,
@@ -61,8 +61,8 @@ monogatari.settings({
 	'NarratorTypeAnimation': true,
 	'CenteredTypeAnimation': true,
 
-	// Orientation
-	'Orientation': 'any',
+	// Orientation — 가로모드 강제
+	'Orientation': 'landscape-primary',
 
 	// Skip speed (ms). 0 = disabled
 	'Skip': 0,
