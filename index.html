@@ -19,7 +19,7 @@
 
 		<!-- Android -->
 		<meta name="mobile-web-app-capable" content="yes">
-		<link rel="icon" sizes="192x192" href="assets/icons/icon_192x192.png">
+		<link rel="icon" sizes="192x192" href="assets/icons/icon_192x192.webp">
 
 		<!-- Apple -->
 		<meta name="apple-mobile-web-app-title" content="월영의 맹약">
@@ -37,12 +37,14 @@
 		<link rel="stylesheet" href="./style/main.css">
 
 		<!-- Monogatari JavaScript -->
+		<!-- [프로덕션 제외] 디버그 도구 - 개발 시에만 활성화
 		<script src="./engine/debug/debug.js"></script>
-		<script src="./engine/core/monogatari.js"></script>
-		<script src="./js/options.js"></script>
-		<script src="./js/storage.js"></script>
-		<script src="./js/script.js"></script>
-		<script src="./js/main.js"></script>
+		-->
+		<script defer src="./engine/core/monogatari.js"></script>
+		<script defer src="./js/options.js"></script>
+		<script defer src="./js/storage.js"></script>
+		<script defer src="./js/script.js"></script>
+		<script defer src="./js/main.js"></script>
 	</head>
 
 	<body>
@@ -74,6 +76,17 @@
 				<help-screen></help-screen>
 			</visual-novel>
 		</div>
-	</body>
 
+		<!-- Service Worker Registration -->
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('./service-worker.js')
+						.then(reg => console.log('[Moonlight Oath] Service Worker registered:', reg.scope))
+						.catch(err => console.warn('[Moonlight Oath] Service Worker registration failed:', err));
+				});
+			}
+		</script>
+	</body>
+</html>
 </html>

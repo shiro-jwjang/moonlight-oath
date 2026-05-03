@@ -42,7 +42,11 @@ monogatari.settings({
 	'ShowMainScreen': true,
 
 	// Asset Preloading
-	'Preload': true,
+	// [기존 설정 — 보존] 'Preload': true,
+	//   → 초기 로딩 시 등록된 모든 에셋을 Promise.all()로 병렬 다운로드
+	//   → 약 88개 이미지 (~171MB)를 한 번에 로드하여 초기 진입 지연 발생
+	// [변경] Preload 비활성화 — 씬 진행 시 에셋을 온디맨드 로드하도록 전환
+	'Preload': false,
 
 	// Auto-save interval (minutes). 0 = Off
 	'AutoSave': 0,

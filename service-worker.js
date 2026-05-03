@@ -1,11 +1,11 @@
 'use strict';
 
 // The name of your game, no spaces or special characters.
-const name = 'Monogatari';
+const name = 'MoonlightOath';
 
 // The version of the cache, changing this will force everything to be cached
 // again.
-const version = '0.1.0';
+const version = '0.2.0';
 
 const files = [
 
@@ -32,21 +32,21 @@ const files = [
 
 	// App Images
 	'favicon.ico',
-	'assets/icons/icon_48x48.png',
-	'assets/icons/icon_60x60.png',
-	'assets/icons/icon_70x70.png',
-	'assets/icons/icon_76x76.png',
-	'assets/icons/icon_96x96.png',
-	'assets/icons/icon_120x120.png',
-	'assets/icons/icon_128x128.png',
-	'assets/icons/icon_150x150.png',
-	'assets/icons/icon_152x152.png',
-	'assets/icons/icon_167x167.png',
-	'assets/icons/icon_180x180.png',
-	'assets/icons/icon_192x192.png',
-	'assets/icons/icon_310x150.png',
-	'assets/icons/icon_310x310.png',
-	'assets/icons/icon_512x512.png'
+	'assets/icons/icon_48x48.webp',
+	'assets/icons/icon_60x60.webp',
+	'assets/icons/icon_70x70.webp',
+	'assets/icons/icon_76x76.webp',
+	'assets/icons/icon_96x96.webp',
+	'assets/icons/icon_120x120.webp',
+	'assets/icons/icon_128x128.webp',
+	'assets/icons/icon_150x150.webp',
+	'assets/icons/icon_152x152.webp',
+	'assets/icons/icon_167x167.webp',
+	'assets/icons/icon_180x180.webp',
+	'assets/icons/icon_192x192.webp',
+	'assets/icons/icon_310x150.webp',
+	'assets/icons/icon_310x310.webp',
+	'assets/icons/icon_512x512.webp'
 ];
 
 self.addEventListener ('install', (event) => {

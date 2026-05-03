@@ -21,7 +21,7 @@
  *
  * You should always keep the $_ready function as the last thing on this file.
  * =============================================================================
- **/
+**/
 
 const { $_ready, $_ } = Monogatari;
 
@@ -34,5 +34,66 @@ $_ready (() => {
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
 
+		// [워크어라운드] Monogatari.js 2.x delegated click handler가
+		// shouldProceed() → isVisible() 체크에서 silent reject되는 이슈 대응
+		// 키보드 단축키(right/space)는 engine.proceed()를 직접 호출하므로 정상 동작.
+		// 마우스 클릭만 수동으로 engine.proceed()를 호출.
+		const engine = customElements.get ('game-screen').engine;
+		const gameScreen = document.querySelector ('[data-screen="game"]');
+
+		/**
+		 * game-screen이 현재 보이고 상호작용 가능한지 확인.
+		 * 엔진의 shouldProceed() 내부 isVisible() 체크를 사전에 수행하여
+		 * 불필요한 reject 로그를 줄임.
+		 */
+		function isGameScreenReady () {
+			if (!gameScreen) return false;
+			const style = window.getComputedStyle (gameScreen);
+			if (style.display === 'none') return false;
+			if (gameScreen.offsetWidth === 0 || gameScreen.offsetHeight === 0) return false;
+			// 엔진 내부 block 플래그 확인 (wait, video modal 등)
+			if (engine.global ('block')) return false;
+			if (engine.global ('_engine_block') && !engine.global ('_executing_sub_action')) return false;
+			return true;
+		}
+
+		gameScreen.addEventListener ('click', (e) => {
+			// 선택지/액션 버튼 클릭은 엔진이 직접 처리하므로 무시
+			if (e.target.closest ('[data-choice]') ||
+				e.target.closest ('[data-action]') ||
+				e.target.closest ('button')) {
+				return;
+			}
+
+			// 게임 화면이 보이지 않으면 무시 (메인 메뉴, 로딩 등)
+			if (!isGameScreenReady ()) {
+				return;
+			}
+
+			engine.proceed ({userInitiated: true, skip: false, autoPlay: false})
+				.catch ((err) => {
+					// shouldProceed() reject 이유를 경고로 출력하여 디버깅 가능하게 함
+					if (err) {
+						console.warn ('[Moonlight Oath] Proceed prevented:', err);
+					}
+				});
+		});
+
+		// [워크어라운드] Monogatari.js 2.x 엔진 run() 함수 처리 버그 대응
+		// F1.callAsync(e, i)에서 i(engine context)가 올바르게 전달되지 않아
+		// function 타입 스크립트 엔트리가 무시됨.
+		// 함수인 경우에만 직접 실행하고, 나머지는 origRun에 위임.
+		const origRun = engine.run.bind (engine);
+		engine.run = function (statement, advance = true) {
+			if (typeof statement === 'function') {
+				const result = statement (engine);
+				engine.global ('block', false);
+				if (advance && result !== false) {
+					engine.next ();
+				}
+				return Promise.resolve (result);
+			}
+			return origRun (statement, advance);
+		};
 	});
 });
