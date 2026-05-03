@@ -33,6 +33,28 @@ $_ready (() => {
 
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
+		// [워크어라운드] 배포 환경에서 storage.js의 monogatari.storage() 호출이
+		// init 이후에 평가되어 storageStructure에 flags가 포함되지 않는 문제 대응.
+		// 로컬에서는 정상 동작하나 배포(GitHub Pages)에서만 타이밍 이슈 발생.
+		if (!engine.storage ('flags')) {
+			const defaultFlags = {
+				glass_bead: false,
+				astronomical_record: false,
+				incense_pouch: false,
+				nothing_taken: false,
+				ceremony_choice: '',
+				ch1_investigation: ''
+			};
+			engine.storage ({ flags: defaultFlags });
+			const raw = engine.global ('storageStructure');
+			if (raw) {
+				const s = JSON.parse (raw);
+				s.flags = defaultFlags;
+				engine.global ('storageStructure', JSON.stringify (s));
+			}
+			console.log ('[Moonlight Oath] flags injected into storage (deployment workaround)');
+		}
+
 
 		// [워크어라운드] Monogatari.js 2.x delegated click handler가
 		// shouldProceed() → isVisible() 체크에서 silent reject되는 이슈 대응
