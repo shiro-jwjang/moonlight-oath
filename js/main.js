@@ -101,12 +101,20 @@ $_ready (() => {
 				});
 		});
 
-		// [워크어라운드] Monogatari.js 2.x 엔진 run() 함수 처리 버그 대응
-		// F1.callAsync(e, i)에서 i(engine context)가 올바르게 전달되지 않아
-		// function 타입 스크립트 엔트리가 무시됨.
-		// 함수인 경우에만 직접 실행하고, 나머지는 origRun에 위임.
-		const origRun = engine.run.bind (engine);
+		// [워크어라운드] 씬 전환 시 이전 캐릭터 자동 제거
+		// Monogatari.js는 show scene 시 캐릭터 스프라이트를 자동으로 지우지 않음.
+		// 매 씬 전환 시 화면에 남아있는 캐릭터를 모두 hide.
 		engine.run = function (statement, advance = true) {
+			if (typeof statement === 'string' && /^\s*show scene\s/i.test (statement)) {
+				const visible = document.querySelectorAll (
+					'[data-screen="game"] [data-character]:not([data-visibility="invisible"])'
+				);
+				if (visible.length > 0) {
+					visible.forEach (el => el.remove ());
+					engine.state ({ characters: [] });
+					console.log (`[Moonlight Oath] Auto-hid ${visible.length} character(s) on scene change`);
+				}
+			}
 			if (typeof statement === 'function') {
 				const result = statement (engine);
 				engine.global ('block', false);
