@@ -161,6 +161,8 @@ monogatari.script ({
 
 	'Prologue': [
 		// SCENE 1. 박씨 가문의 아침
+		'show background black',
+		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// BGM: 단정하고 밝은 궁중풍 현악.
 		'narrator 방 안에는 혼례복 상자, 금실 자수가 놓인 천, 예물 목록이 펼쳐져 있다.',
@@ -207,6 +209,7 @@ monogatari.script ({
 		'seola 왜요?',
 		'hwaryeon 알면 네 마음이 흔들릴 수 있으니까.',
 		'seola 모르면 마음이 없다고 여기시는 겁니까?',
+		'wait 500',
 		'narrator 침묵. 김화련의 얼굴에 아주 짧은 흔들림이 지나간다.',
 		'hwaryeon 오늘 해가 지기 전까지 안채 밖으로 나가지 마라. 특히 저잣거리 쪽은 얼씬도 하지 말거라. 요 며칠 귀족가 물건이 사라지는 일이 잦다.',
 		'seola 물건이요?',
@@ -224,6 +227,8 @@ monogatari.script ({
 		'seola 아직 아무 말도 안 했어.',
 		'dani 그 눈빛은 늘 사고 치기 직전의 눈빛입니다.',
 		// SCENE 1.5. 서고의 스승님
+		'show background black',
+		'wait 500',
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 고요한 거문고 선율.
 		'narrator 설아는 남장 준비 전, 잠시 서고에 들른다.',
@@ -255,12 +260,14 @@ monogatari.script ({
 		'narrator 잠시 따뜻한 침묵.',
 		'jinkwan 설아야. 첫 증표 확인식 전에는 마음을 어지럽히지 말아라. 사람이 제 자리를 찾는 날에는, 발밑을 먼저 보아야 한다.',
 		'seola 제 자리가 마음에 들지 않으면요?',
+		'wait 500',
 		'narrator 박진관의 붓끝이 멈춘다.',
 		'jinkwan 그럴 때일수록 더 자세히 보아야 한다. 자리가 잘못된 것인지, 네 마음이 아직 그 자리를 모르는 것인지.',
 		'narrator 설아는 고개를 숙인다.',
 		'seola 고맙습니다, 스승님.',
 		'narrator 설아가 일어난다.',
 		'jinkwan 어디를 가려느냐.',
+		'wait 500',
 		'narrator 설아가 살짝 굳는다.',
 		'seola 제 방으로요.',
 		'narrator 아주 짧은 침묵.',
@@ -309,6 +316,8 @@ monogatari.script ({
 		'seola 알지만 나갈 거야.',
 		'dani 제가 아가씨 때문에 늙습니다.',
 		// SCENE 3. 담장 아래의 비형
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		// BGM: 낮고 절제된 현악.
 		'narrator 설아가 담장 아래로 다가간다.',
@@ -422,6 +431,7 @@ monogatari.script ({
 		'mugyeom 도둑이 아니라면 더 수상하군.',
 		'seola 무슨 뜻입니까?',
 		'mugyeom 남의 눈을 피하려면 조금 더 완벽했어야지.',
+		'wait 500',
 		'narrator 설아의 숨이 멎는다.',
 		'narrator 김무겸은 끝내 이름을 말하지 않고 주머니를 돌려준다.',
 		'mugyeom 오늘은 돌아가라. 저잣거리는 네 호기심을 받아줄 만큼 한가하지 않다.',
@@ -695,6 +705,7 @@ monogatari.script ({
 		'seol 향은 당신 것이군요.',
 		'sadang 향은 길을 알려줬을 뿐이야.',
 		'sadang 길을 걸은 건 각자고.',
+		'wait 500',
 		'narrator 사담의 시선이 설아의 손에 멈춘다.',
 		'sadang 푸른 유리구슬.',
 		'show character sadang smile',
@@ -901,6 +912,8 @@ monogatari.script ({
 		'narrator 세 후보 중 누가 내 정혼자인가?',
 		'narrator 그리고 ‘설’의 정체는 어디까지 들켰는가?',
 		// SCENE 1. 눈 녹는 아침
+		'show background black',
+		'wait 500',
 		'show scene seola_room with fadeIn',
 		// BGM: 잔잔한 현악.
 		'narrator 단이가 병풍 뒤에서 남장옷을 꺼낸다.',
@@ -1035,6 +1048,7 @@ monogatari.script ({
 		'mugyeom 그 선비를 보게 되면 전해.',
 		'seola 무엇을요?',
 		'mugyeom 오늘 밤은 담을 넘지 말라고.',
+		'wait 500',
 		'narrator 설아가 굳는다.',
 		// SCENE 4. 설원랑의 서신과 사담의 향낭
 		'show scene seola_room with fadeIn',
@@ -1099,6 +1113,8 @@ monogatari.script ({
 	'Chapter1_Mugyeom': [
 		function (engine) { engine.storage({flags: {'ch1_investigation': 'mugyeom'}}); },
 		// 6-A. 김무겸 선택 시
+		'show background black',
+		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 김무겸.
 		'narrator 김무겸은 설아를 보자마자 눈을 가늘게 뜬다.',
@@ -1106,6 +1122,7 @@ monogatari.script ({
 		'mugyeom 또 나왔군.',
 		'seola 무슨 말씀이신지 모르겠습니다.',
 		'mugyeom 모르는 척은 더 못한다.',
+		'wait 500',
 		'narrator 설아는 대꾸하려다 멈춘다.',
 		'mugyeom 박씨 물건만 사라진 게 아니다. 김씨 쪽 장식도 사라졌다.',
 		'seola 그럼 누군가 두 가문을 동시에 건드린 겁니까?',
@@ -1126,6 +1143,8 @@ monogatari.script ({
 	'Chapter1_Seol': [
 		function (engine) { engine.storage({flags: {'ch1_investigation': 'seol'}}); },
 		// 6-B. 설원랑 선택 시
+		'show background black',
+		'wait 500',
 		'show scene bookshop with fadeIn',
 		// Cast: 설아, 설원랑.
 		'narrator 서책방에서 설아가 높은 책더미를 살피던 중, 책들이 무너진다.',
@@ -1157,6 +1176,8 @@ monogatari.script ({
 	'Chapter1_Sadang': [
 		function (engine) { engine.storage({flags: {'ch1_investigation': 'sadang'}}); },
 		// 6-C. 사담 선택 시
+		'show background black',
+		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 사담, 비형.
 		'narrator 사담은 설아의 손목을 잡고 금실 매듭을 본다.',
@@ -1194,6 +1215,8 @@ monogatari.script ({
 	'Chapter1_Bihyung': [
 		function (engine) { engine.storage({flags: {'ch1_investigation': 'bihyung'}}); },
 		// 6-D. 비형 선택 시
+		'show background black',
+		'wait 500',
 		'show scene dark_alley with fadeIn',
 		// Cast: 설아, 비형.
 		'narrator 비형은 설아를 곧장 함정이 기다리는 곳이 아니라 실가게로 데려간다.',
@@ -1215,6 +1238,8 @@ monogatari.script ({
 
 	'Chapter1_Converge': [
 		// SCENE 6.5. 네 갈래 단서가 모이는 곳
+		'show background black',
+		'wait 500',
 		'show scene dark_alley with fadeIn',
 		// Cast: 설아, 비형. 선택에 따라 단이 또는 조사 상대의 짧은 회상 삽입 가능.
 		'narrator 설아는 어둠이 내려앉은 골목 안쪽에서 숨을 고른다.',
@@ -1272,6 +1297,8 @@ monogatari.script ({
 		'narrator 하지만 이번에는 아주 멀리 가지 않는다.',
 		'narrator 설아가 따라올 수 있는 거리에서 멈춰 선다.',
 		// SCENE 7. 별당 잠입과 박겸수의 밀담
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		'narrator 설아와 비형은 예물고 근처로 잠입한다.',
 		'narrator 달빛은 낮은 담장 위에 희미하게 걸려 있고, 별당 주변은 이상할 만큼 조용하다.',
@@ -1305,6 +1332,7 @@ monogatari.script ({
 		'narrator [낯선 사내] 네가 맡은 일 하나 제대로 못 하면, 네 이름만으로 끝나지 않는다.',
 		'narrator 박겸수가 급히 고개를 숙인다.',
 		'gyeomsu 조금만 더 시간을 주십시오. 아가씨가 눈치챈 듯합니다.',
+		'wait 500',
 		'narrator 설아의 손끝이 굳는다.',
 		'narrator [낯선 사내] 그 계집은 아직 아무것도 모른다.',
 		'narrator 하지만 저잣거리에서…… 남장한 선비가 박씨 매듭을 보았다고 했습니다.',
@@ -1373,6 +1401,7 @@ monogatari.script ({
 		'narrator 깊은 밤인데도 서고에는 불이 켜져 있었다.',
 		'seola 서고에 아직 불이 켜져 있어.',
 		'bihyung 진관 어른께서 계신 모양입니다.',
+		'wait 500',
 		'narrator 설아는 긴장으로 굳어 있던 어깨에서 조금 힘을 뺀다.',
 		'narrator 낯선 사내.',
 		'narrator 박겸수의 떨리는 손.',
@@ -1406,6 +1435,7 @@ monogatari.script ({
 		'narrator 유리구슬 하나.',
 		'narrator 그리고 집 안에 숨어든 누군가.',
 		'narrator 나는 아직 어느 쪽도 믿을 수 없었다.',
+		'wait 800',
 		'narrator 제1장 완료.',
 		'narrator 공유 링크는 이 환경에서 내용을 직접 불러오지 못했어. 그래서 지금까지 우리가 정리한 통합본 기준에 맞춰, 기존 2장을 통째로 교체하기 좋은 형태로 써둘게. 아래 텍스트를 그대로 복사해서 통합본의 2장 위치에 넣으면 돼.',
 		'jump Chapter2'
@@ -1416,6 +1446,10 @@ monogatari.script ({
 		// 저잣거리의 설
 		// 부제: 향합이 사라진 자리
 		// SCENE 1. 향이 바뀐 주머니
+		'show background black',
+		'wait 500',
+		'show background black',
+		'wait 500',
 		'show scene seola_room with fadeIn',
 		// BGM: 잔잔하지만 불안한 현악.
 		'narrator 탁자 위에는 전날 밤의 단서들이 놓여 있다.',
@@ -1435,6 +1469,7 @@ monogatari.script ({
 		'seola 단아. 오늘따라 말이 날카롭다?',
 		'show character dani nagging',
 		'dani 밤마다 담을 넘는 아가씨를 모시면 몸종도 갈립니다.',
+		'wait 500',
 		'narrator 설아는 웃으려다 멈춘다.',
 		'seola 단아. 내 주머니, 네가 만졌어?',
 		'dani 어떤 주머니요?',
@@ -1478,6 +1513,7 @@ monogatari.script ({
 		'seola 함정도 길이긴 하잖아.',
 		'show character dani worried',
 		'dani 그건 아주 위험한 사람이나 하는 말입니다.',
+		'wait 500',
 		'narrator 문밖에서 하인의 목소리가 들린다.',
 		'narrator [하인 음성] 아가씨. 부인마님께서 부르십니다.',
 		'narrator 설아와 단이가 서로를 본다.',
@@ -1546,6 +1582,10 @@ monogatari.script ({
 
 	'Chapter2_Converge': [
 		// SCENE 2. 박부인의 금지와 박겸수의 흔들림
+		'show background black',
+		'wait 500',
+		'show background black',
+		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// BGM: 단정하지만 답답한 현악.
 		'narrator 박부인은 예물 목록을 보고 있었다.',
@@ -1558,6 +1598,7 @@ monogatari.script ({
 		'seola 알고 싶어서 여쭈었습니다.',
 		'narrator 박부인의 눈썹이 미세하게 움직인다.',
 		'hwaryeon 어젯밤 예물고 주변을 누군가 살폈다.',
+		'wait 500',
 		'seola 누군가요?',
 		'hwaryeon 그걸 알아내는 것은 네 일이 아니다.',
 		'seola 제 혼례 예물입니다.',
@@ -1580,6 +1621,7 @@ monogatari.script ({
 		'gyeomsu 마님, 향합은 아직 찾지 못했으나…… 향합을 감쌌던 비단까지 함께 사라진 것은 맞습니다.',
 		'narrator 순간, 박부인의 시선이 박겸수에게 향한다.',
 		'hwaryeon 내가 그 말까지 하라 했느냐.',
+		'wait 500',
 		'narrator 박겸수의 얼굴이 굳는다.',
 		'gyeomsu 송구합니다.',
 		'narrator 설아는 그 반응을 놓치지 않았다.',
@@ -1589,6 +1631,7 @@ monogatari.script ({
 		'seola 박겸수.',
 		'gyeomsu 예, 아가씨.',
 		'seola 왼손을 다쳤습니까?',
+		'wait 500',
 		'narrator 박겸수의 얼굴이 다시 굳는다.',
 		'gyeomsu 예?',
 		'seola 자꾸 오른손으로만 목록을 잡고 있길래요.',
@@ -1630,6 +1673,7 @@ monogatari.script ({
 		'seola 네 귀는 원래 나보다 빠르잖아.',
 		'dani 칭찬처럼 들리게 하셔도 위험한 일인 건 변하지 않습니다.',
 		'seola 하인들 사이에서 향합 이야기가 도는지 들어봐. 특히 설 선비라는 이름이 나오는지.',
+		'wait 500',
 		'narrator 단이의 얼굴이 굳는다.',
 		'show character dani suspicious',
 		'dani 정말 그 이름이 돌고 있을까요?',
@@ -1650,6 +1694,7 @@ monogatari.script ({
 		'seola 그걸 다 기억해?',
 		'bihyung 제 일입니다.',
 		'seola 그 말 말고.',
+		'wait 500',
 		'narrator 비형의 손이 잠깐 멈춘다.',
 		'show character bihyung emotional',
 		'bihyung 기억하고 싶어서 기억한 것도 있습니다.',
@@ -1677,6 +1722,8 @@ monogatari.script ({
 		'narrator [시스템] 단이 조사 역할 개방',
 		'narrator [시스템] 남장 위험도 +1',
 		// SCENE 4. 도삼의 첫 단서
+		'show background black',
+		'wait 500',
 		'show scene market_street with fadeIn',
 		// BGM: 활기찬 시장 음악 속 낮은 장단.
 		'narrator 설아는 남장한 ‘설’로 움직인다.',
@@ -1699,6 +1746,7 @@ monogatari.script ({
 		'dosam 살 생각 없는 사람이 제일 오래 구경하더라.',
 		'narrator 설아가 지나치려 하자, 도삼이 툭 던지듯 말한다.',
 		'dosam 향합.',
+		'wait 500',
 		'narrator 설아의 발이 멈춘다.',
 		'dosam 사라진 물건을 찾고 있지? 금실 달린 물건 하나, 향 담은 작은 합 하나. 둘 중 더 찾기 어려운 건 향합이야. 금은 숨기면 무거운데, 향은 숨겨도 냄새가 새거든.',
 		'seola 어디서 들었습니까?',
@@ -1710,6 +1758,7 @@ monogatari.script ({
 		'dosam 그런데 조심해, 어린 선비님. 오늘은 물건을 찾는 날이 아니야.',
 		'seola 그럼요?',
 		'dosam 물건이 사람을 찾는 날이지. 특히 설이라는 이름을 가진 사람을.',
+		'wait 500',
 		'narrator 설아의 표정이 굳는다.',
 		'seola 당신, 제 이름을 어디서 들었습니까?',
 		'dosam 저잣거리에서는 이름보다 냄새가 먼저 돕니다. 오늘 설 선비님은 향 냄새가 아주 비싸게 났습니다.',
@@ -1726,6 +1775,10 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「향 가게 뒤」',
 		'narrator [시스템] 단서 획득: 「설이라는 이름이 돌기 시작했다」',
 		// SCENE 5. 향 가게 뒤 — 김무겸과 순라군
+		'show background black',
+		'wait 500',
+		'show background black',
+		'wait 500',
 		'show scene dark_alley with fadeIn',
 		// BGM: 긴장감 있는 저잣거리 선율.
 		'narrator 향 가게 앞은 화려했지만, 뒤편은 달랐다.',
@@ -1778,6 +1831,7 @@ monogatari.script ({
 		'mugyeom 그 주머니.',
 		'seola 왜요?',
 		'mugyeom 어제와 매듭이 다르다.',
+		'wait 500',
 		'narrator 설아의 표정이 굳는다.',
 		'seola 그런 것도 보십니까?',
 		'mugyeom 수상한 자가 달고 있는 물건은 본다.',
@@ -1792,6 +1846,10 @@ monogatari.script ({
 		'narrator [시스템] 김무겸 호감 +1',
 		'narrator [시스템] 김무겸 의심도 +1',
 		// SCENE 6. 사찰 심부름길 — 설원랑과 보자기 기록
+		'show background black',
+		'wait 500',
+		'show background black',
+		'wait 500',
 		'show scene special_top with fadeIn',
 		// BGM: 목탁 소리와 부드러운 현악.
 		'narrator 설아는 사찰 표식이 찍힌 천 조각을 들고 남쪽 길로 향했다.',
@@ -1806,6 +1864,7 @@ monogatari.script ({
 		'narrator 설원랑은 작은 기록 묶음을 들어 보였다.',
 		'seol ‘설’이라는 이름을 기다렸지요.',
 		'seol 그런데 이름의 주인이 직접 오셨군요.',
+		'wait 500',
 		'narrator 설아의 얼굴이 굳는다.',
 		'seola 그 기록에 제 이름이 있습니까?',
 		'show character seol serious',
@@ -1854,6 +1913,7 @@ monogatari.script ({
 		'seol 설',
 		'seol 청류',
 		'seol 북물길',
+		'wait 500',
 		'narrator 설아의 얼굴이 굳는다.',
 		'seola 청류…….',
 		'seol 청류상단을 가리키는 듯합니다.',
@@ -1871,6 +1931,8 @@ monogatari.script ({
 		'narrator [시스템] 설원랑 호감 +1',
 		'narrator [시스템] 설원랑 신뢰 +1',
 		// SCENE 7. 청류상단 주변 — 사담과 가짜 향
+		'show background black',
+		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// BGM: 이국적인 현악과 잔잔한 타악.
 		'narrator [시스템] 청류상단 주변에 들어서자마자 설아는 시선을 느꼈다.',
@@ -1916,6 +1978,7 @@ monogatari.script ({
 		'narrator 사담은 설아를 보았다.',
 		'sadang 상단에게.',
 		'sadang 아니면 상단과 가까운 사람에게.',
+		'wait 500',
 		'narrator 설아의 눈이 사담에게 멈춘다.',
 		'seola 당신도 그 가까운 사람 중 하나입니까?',
 		'narrator 사담은 웃었다.',
@@ -1982,6 +2045,7 @@ monogatari.script ({
 		'dani 이상합니다. 정말 이상합니다.',
 		'seola 뭐가?',
 		'dani 저잣거리에서는 설 선비 이야기가 돌고, 하인들 사이에서는 박씨 가문 이야기가 돕니다.',
+		'wait 500',
 		'narrator 설아의 얼굴이 굳는다.',
 		'dani 둘을 누군가 일부러 가까이 붙이고 있어요.',
 		'seola 설과 박설아를?',
@@ -2014,7 +2078,9 @@ monogatari.script ({
 		'gyeomsu 더는 어렵습니다. 아가씨께서 눈치채셨습니다.',
 		'gyeomsu 검은 옷의 사내',
 		'gyeomsu 그 계집은 아직 아무것도 모른다.',
+		'wait 500',
 		'narrator 설아의 손이 주먹으로 쥐어진다.',
+		'wait 500',
 		'narrator 비형이 낮게 말했다.',
 		'bihyung 참으십시오.',
 		'narrator 하지만 설이라는 이름이 너무 많이 돌고 있습니다. 혹시 그 이름이 아가씨와 닿기라도 하면…….',
@@ -2024,6 +2090,7 @@ monogatari.script ({
 		'gyeomsu 검은 옷의 사내',
 		'gyeomsu 설이라는 이름이 더 떠돌아야 한다.',
 		'gyeomsu 박설아라는 이름과 닿기 전에.',
+		'wait 500',
 		'narrator 설아의 눈동자가 흔들렸다.',
 		'narrator 그들은 알고 있다.',
 		'narrator 아니, 적어도 의심하고 있다.',
@@ -2101,6 +2168,7 @@ monogatari.script ({
 		'mugyeom 네가 왜 여기 있지?',
 		'seola 함정입니다.',
 		'mugyeom 그 말은 누구나 한다.',
+		'wait 500',
 		'narrator 설아의 표정이 굳는다.',
 		'seola 무겸공자도 저를 의심합니까?',
 		'narrator 김무겸은 대답이 늦다.',
@@ -2129,6 +2197,7 @@ monogatari.script ({
 		'narrator 장물상은 사라지고, 검은 옷의 사내도 흔적을 감춘다.',
 		'narrator 김무겸이 낮게 중얼거렸다.',
 		'mugyeom 향까지 준비했군.',
+		'wait 500',
 		'narrator 설아는 주먹을 쥐었다.',
 		'seola 누군가 저를 향합과 연결시키고 있어요.',
 		'mugyeom 그래서 말했잖아. 미끼가 된다고.',
@@ -2161,6 +2230,7 @@ monogatari.script ({
 		'show character bihyung angry',
 		'bihyung 아가씨.',
 		'seola 비형. 나는 숨겨지는 게 지긋지긋해.',
+		'wait 500',
 		'narrator 비형의 표정이 굳는다.',
 		'seola 집에서는 혼례 때문에 숨기고, 어머니는 소문 때문에 숨기고, 무겸공자는 위험하다고 막고, 너는 지킨다는 말로 숨기려 해.',
 		'bihyung 아가씨를 위한 일입니다.',
@@ -2177,6 +2247,7 @@ monogatari.script ({
 		'seola 사과하라는 게 아니야.',
 		'bihyung 그럼 무엇을 원하십니까?',
 		'seola 숨기지 말고, 같이 봐줘.',
+		'wait 500',
 		'narrator 비형의 눈빛이 흔들린다.',
 		'bihyung 같이…….',
 		'seola 내 앞을 막지 말고. 내 뒤에서만 지키지도 말고. 옆에서.',
@@ -2209,6 +2280,7 @@ monogatari.script ({
 		'narrator 단이의 얼굴이 새하얗게 질린다.',
 		'dani 마님…….',
 		'hwaryeon 설아야.',
+		'wait 500',
 		'narrator 박부인의 목소리는 낮고 차갑다.',
 		'hwaryeon 이것이 무엇이냐.',
 		'narrator 탁자 위에는 작은 비단 조각이 놓여 있었다.',
@@ -2263,12 +2335,14 @@ monogatari.script ({
 		'narrator 모녀의 시선이 부딪힌다.',
 		'hwaryeon 네 이름을 지키려면, 때로는 입을 닫아야 한다.',
 		'seola 제 이름을 누가 훔쳐가고 있는데, 어떻게 입을 닫습니까?',
+		'wait 500',
 		'narrator 박부인의 눈빛이 흔들린다.',
 		'narrator 하지만 그녀는 끝내 돌아선다.',
 		'hwaryeon 향비단은 내가 보관하겠다. 오늘 밤 있었던 일은 아무에게도 말하지 마라.',
 		'narrator 박부인이 나간다.',
 		'narrator 박겸수도 뒤따라 나가려 한다.',
 		'seola 박겸수.',
+		'wait 500',
 		'narrator 박겸수가 멈춘다.',
 		'seola 당신은 알고 있었죠?',
 		'narrator 박겸수는 대답하지 않는다.',
@@ -2432,6 +2506,8 @@ monogatari.script ({
 		'narrator 제3장',
 		'narrator 남장한 월령',
 		// SCENE 1. 향합이 남긴 길
+		'show background black',
+		'wait 500',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용하고 불안한 현악.
 		// Cast: 설아, 단이.
@@ -2457,6 +2533,7 @@ monogatari.script ({
 		'narrator 설아는 잠시 망설인다.',
 		'dani 그리고요?',
 		'seola 궁에서 온 물건에 묻어 있던 향과도 비슷해.',
+		'wait 500',
 		'narrator 단이의 얼굴이 굳는다.',
 		'dani 궁이요?',
 		'seola 확실하진 않아. 하지만 그냥 귀족가 향은 아니야.',
@@ -2547,6 +2624,7 @@ monogatari.script ({
 		'seola 그래도 짐작은 했구나.',
 		'bihyung 아가씨의 방에 들어온 자가 있고, 저잣거리에서 같은 향이 돌았습니다.',
 		'bihyung 집 안과 집 밖이 동시에 움직였다는 뜻입니다.',
+		'wait 500',
 		'narrator 설아는 걸음을 멈춘다.',
 		'seola 그런데 왜 말하지 않았어?',
 		'bihyung 말씀드렸다면 멈추셨겠습니까?',
@@ -2594,12 +2672,14 @@ monogatari.script ({
 		'seola 도삼.',
 		'narrator 설아의 목소리가 낮아진다.',
 		'seola 당신은 그냥 정보상이 아니죠?',
+		'wait 500',
 		'narrator 도삼의 웃음이 잠시 멈춘다.',
 		'dosam 그걸 이제 물으십니까?',
 		'seola 처음부터 의심했습니다.',
 		'dosam 역시 귀한 집 아씨들은 무섭다니까요.',
 		'seola 아씨라 부르지 마십시오.',
 		'dosam 밖에서는 설 선비, 안에서는……',
+		'wait 500',
 		'narrator 그가 말을 멈춘다.',
 		'dosam 공방 안쪽 문 너머에서 발소리가 들린다.',
 		'narrator 비형이 설아 앞에 한 걸음 나선다.',
@@ -2608,6 +2688,7 @@ monogatari.script ({
 		'narrator 문이 열린다.',
 		'narrator 단정한 여관 차림의 여인, 연소하가 들어온다.',
 		'sonha 안에서는 박설아 낭자라 부르는 것이 맞겠지요.',
+		'wait 500',
 		'narrator 설아는 굳는다.',
 		'seola 누구십니까?',
 		'sonha 연소하라 합니다.',
@@ -2620,6 +2701,7 @@ monogatari.script ({
 		'narrator 연소하는 비형을 본다.',
 		'sonha 박씨 가문의 그림자 호위.',
 		'sonha 당신이 비형이군요.',
+		'wait 500',
 		'narrator 비형의 눈빛이 차갑게 내려앉는다.',
 		'bihyung 그 이름을 누가 알려주었습니까?',
 		'sonha 알려준 사람은 없습니다.',
@@ -2630,6 +2712,7 @@ monogatari.script ({
 		'narrator 비형은 대답하지 않는다.',
 		'narrator 하지만 그의 손이 칼집 가까이 내려간다.',
 		'seola 비형.',
+		'wait 500',
 		'narrator 설아가 낮게 부르자 비형은 손을 멈춘다.',
 		'seola 도삼.',
 		'seola 당신은 누구에게 돈을 받았습니까?',
@@ -2646,6 +2729,8 @@ monogatari.script ({
 		'sonha 월영단.',
 		'sonha 공방 안의 공기가 달라진다.',
 		// SCENE 4. 연소하와 내월
+		'show background black',
+		'wait 500',
 		'show scene dark_alley with fadeIn',
 		// BGM: 낮고 긴장감 있는 현악.
 		// Cast: 설아, 비형, 도삼, 연소하.
@@ -2666,6 +2751,7 @@ monogatari.script ({
 		'seola 그럼 제가 남장하고 저잣거리에 나간 것도 알고 있었습니까?',
 		'narrator 짧은 침묵.',
 		'sonha 예.',
+		'wait 500',
 		'narrator 설아의 표정이 차갑게 굳는다.',
 		'seola 제 허락 없이요?',
 		'sonha 예.',
@@ -2731,9 +2817,12 @@ monogatari.script ({
 		'sonha 적어도 오늘 이 자리에서는 그렇습니다.',
 		'seola 그럼 무엇입니까?',
 		'sonha 낭자가 더 이상 아무것도 모르는 사람으로 취급받지 않기 위한 문입니다.',
+		'wait 500',
 		'narrator 설아의 눈빛이 흔들린다.',
 		'sonha 문을 열지는 낭자께서 정하십시오.',
 		// SCENE 5. 돌아갈 수 있는 문
+		'show background black',
+		'wait 500',
 		'show scene dark_alley with fadeIn',
 		// BGM: 바람 소리, 멀어지는 시장 소음.
 		// Cast: 설아, 도삼, 비형. 후반에 연소하.
@@ -2799,6 +2888,8 @@ monogatari.script ({
 		'narrator 연소하가 기다린다.',
 		'narrator 하지만 가겠습니다.',
 		// SCENE 6. 달빛 아래의 군주
+		'show background black',
+		'wait 500',
 		'show scene special_top with fadeIn',
 		// BGM: 고요하고 품격 있는 현악.
 		// Cast: 설아, 연소하, 선덕여왕.
@@ -2818,8 +2909,10 @@ monogatari.script ({
 		'yeowang 네 혼례는 네 집안만의 일이 아니다.',
 		'seola 어째서입니까?',
 		'yeowang 그 혼례가 무너지면, 오래된 균형도 함께 무너진다.',
+		'wait 500',
 		'narrator 설아의 얼굴이 굳는다.',
 		'seola 전하께도 저는 균형입니까?',
+		'wait 500',
 		'narrator 연소하가 살짝 숨을 멈춘다.',
 		'narrator 그러나 선덕여왕은 꾸짖지 않는다.',
 		'seola 저는 가문의 증표도, 나라의 저울추도 아닙니다.',
@@ -2837,6 +2930,7 @@ monogatari.script ({
 		'narrator 선덕여왕은 희미하게 웃는다.',
 		'yeowang 두려워하는 사람은 아직 생각하고 있는 사람이다.',
 		'yeowang 생각하지 않는 자는 두려움조차 모른다.',
+		'wait 500',
 		'narrator 설아는 조금 흔들린다.',
 		'yeowang 설아야.',
 		'yeowang 누구도 균형을 위해 태어나지는 않는다.',
@@ -2846,6 +2940,7 @@ monogatari.script ({
 		'yeowang 모른다고 말할 수 있는 이는 아직 무너지지 않은 사람이다.',
 		'seola 전하께서는 제가 월령이 되기를 바라십니까?',
 		'yeowang 바란다.',
+		'wait 500',
 		'narrator 설아의 눈이 흔들린다.',
 		'narrator 하지만 원한다고 해서 네 뜻 없이 끌고 갈 생각은 없다.',
 		'seola 월령이 되면 전하의 사람이 되는 것입니까?',
@@ -2854,6 +2949,7 @@ monogatari.script ({
 		'yeowang 월령이 되라는 것은 내 사람이 되라는 뜻이 아니다.',
 		'yeowang 네 눈으로 보고, 네 이름으로 판단하라는 뜻이다.',
 		'seola 제가 본 것이 전하의 뜻과 다르면요?',
+		'wait 500',
 		'narrator 연소하가 순간 숨을 멈춘다.',
 		'narrator 선덕여왕은 오히려 조용히 웃는다.',
 		'yeowang 그렇다면 네가 본 것을 말해야지.',
@@ -2898,6 +2994,8 @@ monogatari.script ({
 		'seola 이미 늦은 것 같습니다.',
 		'yeowang 그렇다면 늦은 사람답게 잘 보아라.',
 		// SCENE 7. 별당 밖의 숨
+		'show background black',
+		'wait 500',
 		'show scene special_top with fadeIn',
 		// BGM: 달빛처럼 차갑고 맑은 현악.
 		// Cast: 설아, 연소하, 도삼, 비형.
@@ -3062,6 +3160,7 @@ monogatari.script ({
 		'seola 제가 변했습니까?',
 		'jinkwan 아니.',
 		'jinkwan 네가 무엇을 감추는 법을 배우기 시작했을 뿐이다.',
+		'wait 500',
 		'narrator 설아는 숨을 멈춘다.',
 		'seola 감추는 것이 늘 나쁜 것은 아니지요?',
 		'jinkwan 그렇지.',
@@ -3086,6 +3185,7 @@ monogatari.script ({
 		'jinkwan 네가 보려 한다면.',
 		'narrator 잠시 후, 박진관은 따뜻한 차를 설아 앞에 밀어준다.',
 		'jinkwan 눈을 비비지 말거라. 밤새 글을 보면 눈이 먼저 늙는다.',
+		'wait 500',
 		'narrator 설아는 자신도 모르게 눈가에 손을 가져가다 멈춘다.',
 		'seola 스승님은 늘 글은 오래 남는다고 하시면서, 제 눈은 아끼라 하십니다.',
 		'jinkwan 글은 다시 베껴 쓸 수 있지만, 네 눈은 하나뿐이니.',
@@ -3153,6 +3253,7 @@ monogatari.script ({
 		'narrator 연소하는 잠시 침묵한다.',
 		'seola 그 침묵은 단어 하나를 꺼내기 전의 예의처럼 느껴졌다.',
 		'sonha 오래전에는…… 유월문이라 불렸습니다.',
+		'wait 500',
 		'narrator 공방 안의 공기가 차갑게 가라앉는다.',
 		'narrator 설아는 푸른 유리구슬을 떠올린다.',
 		'narrator 사담의 웃음.',
@@ -3215,6 +3316,8 @@ monogatari.script ({
 		'narrator 아니면 내가 아직 알지 못하는,',
 		'narrator 더 오래된 거짓의 첫 글자일까.',
 		// SCENE 10. 확인식 전야
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		// BGM: 조용한 달빛 테마.
 		// Cast: 설아, 단이, 비형.
@@ -3283,6 +3386,7 @@ monogatari.script ({
 		'dani 정말 무서우시면, 방으로 돌아오셔도 됩니다.',
 		'show character dani proud',
 		'dani 아가씨 이름은 가문에도, 나라에도, 이상한 약속에도 있지만…… 제게는 그냥 아가씨 이름이니까요.',
+		'wait 500',
 		'narrator 설아의 눈빛이 흔들린다.',
 		'seola 단아.',
 		'dani 그러니 꼭 무언가를 증명하려고만 하지 마십시오.',
@@ -3362,6 +3466,8 @@ monogatari.script ({
 		'narrator 누군가 일부러 비워둔 자리일 수도 있다고.',
 		// Transition: 박씨 가문 별당 위로 아침빛이 내려앉는다.
 		// SCENE 1. 월령의 첫 보고
+		'show background black',
+		'wait 500',
 		'show scene market_street with fadeIn',
 		// Cast: 설아, 도삼, 연소하.
 		'narrator 설아는 전날보다 단정한 남장 차림이다.',
@@ -3404,6 +3510,7 @@ monogatari.script ({
 		'jinkwan 첫 증표 확인식이니 당연하지.',
 		'narrator 설아는 잠시 침묵한다.',
 		'seola 스승님. 증표란 사람을 가리키는 것입니까, 아니면 약속을 가리키는 것입니까?',
+		'wait 500',
 		'narrator 박진관의 손이 잠시 멈춘다.',
 		'jinkwan 증표는 사람을 가리키는 물건이 아니다.',
 		'jinkwan 사람이 제 자리에 섰는지를 확인하는 물건이지.',
@@ -3420,6 +3527,7 @@ monogatari.script ({
 		'seola 스승님은 늘 마음보다 자리를 먼저 말씀하십니다.',
 		'jinkwan 자리를 잃은 마음은 쉽게 흩어진다.',
 		'seola 자리가 틀렸다면요?',
+		'wait 500',
 		'narrator 박진관의 눈이 잠깐 멈춘다.',
 		'jinkwan 그럴 때일수록 더 오래 보아야 한다.',
 		'jinkwan 자리가 틀린 것인지, 마음이 아직 그 자리를 모르는 것인지.',
@@ -3433,6 +3541,8 @@ monogatari.script ({
 		'jinkwan 문 앞에 선 사람의 눈.',
 		'narrator 설아는 대답하지 못한다.',
 		// SCENE 3. 첫 증표 확인식
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		// BGM: 낮고 장중한 의례 음악.
 		// Cast: 설아, 박윤량, 김화련, 박진관, 박겸수, 김무겸, 설원랑, 비형.
@@ -3503,6 +3613,7 @@ monogatari.script ({
 		'narrator 박진관이 손을 든다.',
 		'jinkwan 의식은 흔들림을 잠재우기 위해 있는 것입니다.',
 		'jinkwan 오늘은 더 논하지 않는 것이 좋겠습니다.',
+		'wait 500',
 		'narrator 하지만 이제 막 흔들린 것 아닙니까?',
 		'jinkwan 설아야. 때로는 흔들림을 더 흔들어서는 안 된다.',
 		'seola 흔들림이 아니라, 빠진 것일 수도 있습니다.',
@@ -3549,6 +3660,7 @@ monogatari.script ({
 		'seola 증표는 이름을 정하지 않는다.',
 		'seola 선택을 증명한다.',
 		'seola 맹약을 이을 자……',
+		'wait 500',
 		'narrator 설아는 숨을 멈춘다.',
 		'seola 정혼자의 이름이 드러난다…… 가 아니었군요.',
 		'seol 그렇게 보입니다.',
@@ -3600,6 +3712,8 @@ monogatari.script ({
 		'narrator 하지만 이상하게 오래 남았다.',
 		// SCENE 5. 각 후보의 다른 진실
 		// 5-A. 김무겸 — 검월식의 경고
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		// Cast: 설아, 김무겸.
 		'narrator 김무겸은 훈련장 한쪽에서 검을 닦고 있다.',
@@ -3612,6 +3726,7 @@ monogatari.script ({
 		'mugyeom 누가 거짓말하고 있느냐고.',
 		'narrator 설아는 말없이 그 옆에 선다.',
 		'seola 검월식이 진짜입니까?',
+		'wait 500',
 		'narrator 김무겸은 검 닦던 손을 멈춘다.',
 		'mugyeom 절반은.',
 		'seola 절반이요?',
@@ -3650,6 +3765,7 @@ monogatari.script ({
 		'seola 지금은요?',
 		'show character mugyeom sad',
 		'mugyeom 지금은 네가 의심받게 될까 봐 걱정된다.',
+		'wait 500',
 		'narrator 설아의 눈이 흔들린다.',
 		'narrator 김무겸은 시선을 피하듯 검을 검집에 넣는다.',
 		'show character mugyeom angry',
@@ -3735,6 +3851,7 @@ monogatari.script ({
 		'seola 믿어도 됩니까?',
 		'sadang 믿고 싶은 만큼만.',
 		'seola 청류상단이 예전에는 다른 이름이었다고 들었습니다.',
+		'wait 500',
 		'narrator 사담의 손이 멈춘다.',
 		'seola 유월문.',
 		'seola 천막 안의 공기가 차갑게 굳는다.',
@@ -3761,6 +3878,7 @@ monogatari.script ({
 		'sadang 그는 설아에게 한 걸음 다가온다.',
 		'sadang 박씨라서 못 믿겠는데,',
 		'sadang 아씨라서 자꾸 말하게 돼.',
+		'wait 500',
 		'narrator 설아는 숨을 멈춘다.',
 		'narrator 사담은 다시 웃는다.',
 		'sadang 이번엔 일부러 가볍게.',
@@ -3808,6 +3926,7 @@ monogatari.script ({
 		'bihyung 억지로 연 흔적은 없습니다.',
 		'seola 그럼?',
 		'bihyung 열쇠를 쓴 흔적은 있습니다.',
+		'wait 500',
 		'narrator 설아의 표정이 굳는다.',
 		'seola 이 문을 열 수 있는 사람이 많아?',
 		'bihyung 많지 않습니다.',
@@ -3822,6 +3941,7 @@ monogatari.script ({
 		'bihyung 예.',
 		'seola 아직 아무 말도 안 했어.',
 		'bihyung 대체로 비슷한 말이실 것 같아서.',
+		'wait 500',
 		'narrator 설아는 작게 웃으려다 멈춘다.',
 		'seola 비형.',
 		'seola 스승님이 나쁜 뜻으로 이 문을 열었을 가능성이 있을까?',
@@ -3853,6 +3973,8 @@ monogatari.script ({
 		'narrator 설아는 대답하지 못한다.',
 		'bihyung 그 말이 이상하게 오래 남았다.',
 		// SCENE 6. 박겸수라는 미끼
+		'show background black',
+		'wait 500',
 		'show scene park_outside with fadeIn',
 		// BGM: 긴장감 있는 낮은 현악.
 		// Cast: 설아, 비형, 김무겸, 설원랑, 박겸수.
@@ -3919,6 +4041,7 @@ monogatari.script ({
 		'seol 예물고 열쇠와는 모양이 다릅니다.',
 		'narrator 비형이 낮게 말한다.',
 		'bihyung 서고 뒤편 문에 쓰는 열쇠입니다.',
+		'wait 500',
 		'narrator 설아의 눈이 흔들린다.',
 		'seola 서고……',
 		'narrator 하인은 불안하게 주변을 본다.',
@@ -3987,6 +4110,7 @@ monogatari.script ({
 		'narrator 설아는 그 말에 손끝을 움켜쥔다.',
 		'narrator 박겸수는 누군가의 지시를 받았습니다.',
 		'jinkwan 그렇겠지.',
+		'wait 500',
 		'narrator 설아가 놀라 박진관을 본다.',
 		'jinkwan 저 아이 혼자 이만한 일을 꾸밀 수는 없다.',
 		'jinkwan 그러니 누군가의 지시를 받았을 것이다.',
@@ -4029,6 +4153,7 @@ monogatari.script ({
 		'jinkwan 그럼 무엇이냐.',
 		'narrator 설아는 잠시 숨을 고른다.',
 		'seola 무섭습니다.',
+		'wait 500',
 		'narrator 박진관의 눈빛이 아주 잠깐 흔들린다.',
 		'seola 제가 믿고 있던 곳이, 자꾸 단서가 있는 곳이 됩니다.',
 		'narrator 서고 안이 조용해진다.',
@@ -4075,6 +4200,7 @@ monogatari.script ({
 		'narrator 하지만 무엇을 바로잡고, 무엇을 무너뜨릴 것인지는 다르지.',
 		'seola 거짓이라면 무너져야 하지 않습니까?',
 		'jinkwan 모든 거짓이 무너질 때, 진실이 살아남는 것은 아니다.',
+		'wait 500',
 		'narrator 설아의 눈이 흔들린다.',
 		'jinkwan 어떤 거짓은 오래된 집의 기둥처럼 박혀 있다.',
 		'jinkwan 그것을 뽑으면 집이 함께 무너질 수도 있지.',
@@ -4116,6 +4242,7 @@ monogatari.script ({
 		'jinkwan 그렇다면 기억해라.',
 		'jinkwan 네가 보는 것이 전부가 아닐 수 있다.',
 		'seola 스승님께 배운 대로, 빠진 것을 보겠습니다.',
+		'wait 500',
 		'narrator 박진관의 눈빛이 아주 잠깐 흔들린다.',
 		'jinkwan 그래.',
 		'jinkwan 내가 가르친 대로.',
@@ -4123,6 +4250,7 @@ monogatari.script ({
 		'narrator 그리고 돌아선다.',
 		'jinkwan 문을 나서기 직전, 박진관이 말한다.',
 		'jinkwan 설아야.',
+		'wait 500',
 		'narrator 설아가 멈춘다.',
 		'jinkwan 네가 누구를 믿든, 네 이름을 남에게 맡기지는 말아라.',
 		'narrator 설아는 돌아보지 않는다.',
