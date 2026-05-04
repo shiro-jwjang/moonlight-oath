@@ -576,8 +576,7 @@ monogatari.script ({
 		'narrator 상인들의 외침도, 아이들의 웃음도, 향과 비단을 파는 목소리도 이곳까지는 닿지 않았다.',
 		'narrator 북쪽 우물가로 향하는 골목은 좁고 어두웠다.',
 		'narrator 처마 끝에 매달린 눈이 녹아, 가끔씩 차가운 물방울이 떨어졌다.',
-		'show particles snow',
-		'narrator 설아는 품속의 향낭을 꺼내 코끝에 가져갔다.',
+		'narrator 설아는 품속의 향낭을 꺼내 코끝에 가져갈다.',
 		'narrator 희미한 향이 아직 남아 있었다.',
 		'narrator 사담은 이곳을 알려줬고, 무겸공자도 이쪽으로 갔어.',
 		'show character bihyung worried at right with fadeIn',
@@ -872,7 +871,6 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「첫 증표까지 사흘」',
 		'narrator [시스템] 단서 획득: 「셋 중 하나는 거짓이다」',
 		// SCENE 8. 방으로 돌아온 밤
-		'hide particles snow',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용하고 불안한 현악.
 		'narrator 설아는 방으로 돌아오자마자 탁자 위에 단서들을 펼친다.',
@@ -3369,7 +3367,6 @@ monogatari.script ({
 		// Cast: 설아, 단이, 비형.
 		'narrator 설아는 가문으로 돌아온다.',
 		'narrator 밤은 이미 깊고, 후원에는 서리가 내려 있다.',
-		'show particles snow',
 		'narrator 단이는 몰래 기다리고 있다가 설아를 보자마자 달려온다.',
 		'show character dani conspiratorial at left with fadeIn',
 		'dani 아가씨!',
@@ -3478,7 +3475,6 @@ monogatari.script ({
 		'narrator 정혼자는 이미 정해진 사람인가?',
 		'narrator 아니면 내가 누구와 진실을 마주할지 선택하는 것인가?',
 		// SCENE 0. 두 개의 표식
-		'hide particles snow',
 		'show background #000000',
 		// BGM: 낮고 느린 현악.
 		// Direction: 어둠 속에 두 개의 작은 빛이 떠오른다. 하나는 달 문양, 하나는 낡은 서고 출입패의 윤곽.
