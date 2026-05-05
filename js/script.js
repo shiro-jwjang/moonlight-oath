@@ -336,8 +336,7 @@ monogatari.script ({
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 고요한 거문고 선율.
 		'narrator 설아는 남장 준비 전, 잠시 서고에 들른다.',
-		'show character dani conspiratorial at left with fadeIn',
-		'dani 책장 사이에 박진관이 앉아 있다. 오래된 두루마리와 의례서가 펼쳐져 있다.',
+		'narrator 책장 사이에 박진관이 앉아 있다. 오래된 두루마리와 의례서가 펼쳐져 있다.',
 		'show character jingan normal at center with fadeIn',
 		'jingan 들어오너라.',
 		'seola 제가 온 줄 어찌 아셨어요?',
@@ -395,7 +394,6 @@ monogatari.script ({
 		'stop music',
 		'play music peach_teacup_prank with loop',
 		// SCENE 2. 남장 준비
-		'hide character dani with fadeOut',
 		'hide character jingan with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 가볍고 장난스러운 현악.
