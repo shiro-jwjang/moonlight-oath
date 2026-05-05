@@ -102,30 +102,6 @@ $_ready (() => {
 				});
 		});
 
-		// [워크어라운드] 씬 전환 시 이전 캐릭터 자동 제거
-		// Monogatari.js는 show scene 시 캐릭터 스프라이트를 자동으로 지우지 않음.
-		// 매 씬 전환 시 화면에 남아있는 캐릭터를 모두 hide.
-		const origRun = engine.run.bind (engine);
-		engine.run = function (statement, advance = true) {
-			if (typeof statement === 'string' && /^\s*show scene\s/i.test (statement)) {
-				const visible = document.querySelectorAll (
-					'[data-screen="game"] [data-character]:not([data-visibility="invisible"])'
-				);
-				if (visible.length > 0) {
-					visible.forEach (el => el.remove ());
-					engine.state ({ characters: [] });
-					console.log (`[Moonlight Oath] Auto-hid ${visible.length} character(s) on scene change`);
-				}
-			}
-			if (typeof statement === 'function') {
-				const result = statement (engine);
-				engine.global ('block', false);
-				if (advance && result !== false) {
-					engine.next ();
-				}
-				return Promise.resolve (result);
-			}
-			return origRun (statement, advance);
-		};
+
 	});
 });
