@@ -336,7 +336,6 @@ monogatari.script ({
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 고요한 거문고 선율.
 		'narrator 설아는 남장 준비 전, 잠시 서고에 들른다.',
-		'hide character dani',
 		'show character dani conspiratorial at left with fadeIn',
 		'dani 책장 사이에 박진관이 앉아 있다. 오래된 두루마리와 의례서가 펼쳐져 있다.',
 		'show character jingan normal at center with fadeIn',
