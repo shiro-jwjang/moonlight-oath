@@ -605,7 +605,7 @@ monogatari.script ({
 		// BGM: 조용하고 지적인 선율.
 		'narrator 설아와 비형이 소란을 피해 서책방으로 들어간다.',
 		'show character mugyeom normal at left with fadeIn',
-		'mugyeom 낡은 필사본 위에 별자리 그림이 있다.',
+		'narrator 낡은 필사본 위에 별자리 그림이 있다.',
 		'seola 이건…… 천문 기록인가?',
 		'show character seol serious at center with fadeIn',
 		'seol 정확히는 천문이라기보다 점성에 가깝습니다.',
@@ -668,7 +668,7 @@ monogatari.script ({
 		'show scene park_indoor with fadeIn',
 		// BGM: 이국적인 현악과 타악.
 		'show character seol normal at center with fadeIn',
-		'seol 푸른 유리잔, 향병, 비단끈이 등불에 반짝인다.',
+		'narrator 푸른 유리잔, 향병, 비단끛이 등불에 반짝인다.',
 		'show character sadang suspicious_smile at right with fadeIn',
 		'sadang 어서 와, 작은 선비님. 눈으로 세 번 만졌으면 이제 한 번은 사야지.',
 		'seola 제가요?',
@@ -1470,7 +1470,6 @@ monogatari.script ({
 		// 6-B. 설원랑 선택 시
 		'show background black',
 		'wait 500',
-		'hide character mugyeom with fadeOut',
 		'show scene bookshop with fadeIn',
 		// Cast: 설아, 설원랑.
 		'narrator 서책방에서 설아가 높은 책더미를 살피던 중, 책들이 무너진다.',
@@ -1515,7 +1514,6 @@ monogatari.script ({
 		// 6-C. 사담 선택 시
 		'show background black',
 		'wait 500',
-		'hide character seol with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 사담, 비형.
 		'narrator 사담은 설아의 손목을 잡고 금실 매듭을 본다.',
@@ -1563,7 +1561,6 @@ monogatari.script ({
 		'show background black',
 		'wait 500',
 		'hide character bihyung with fadeOut',
-		'hide character sadang with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// Cast: 설아, 비형.
 		'narrator 비형은 설아를 곧장 함정이 기다리는 곳이 아니라 실가게로 데려간다.',
