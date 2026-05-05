@@ -332,7 +332,7 @@ monogatari.script ({
 		'play music roofline_dawn with loop',
 		'show background black',
 		'wait 500',
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 고요한 거문고 선율.
 		'narrator 설아는 남장 준비 전, 잠시 서고에 들른다.',
@@ -396,8 +396,8 @@ monogatari.script ({
 		'stop music',
 		'play music peach_teacup_prank with loop',
 		// SCENE 2. 남장 준비
-			'hide character dani with fadeOut',
-			'hide character jingan with fadeOut',
+		'hide character dani with fadeOut',
+		'hide character jingan with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 가볍고 장난스러운 현악.
 		'narrator 단이가 옷장 깊숙한 곳에서 남장옷을 꺼낸다.',
@@ -456,7 +456,7 @@ monogatari.script ({
 		// SCENE 3. 담장 아래의 비형
 		'show background black',
 		'wait 500',
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene park_outside with fadeIn',
 		// BGM: 낮고 절제된 현악.
 		'narrator 설아가 담장 아래로 다가간다.',
@@ -523,7 +523,7 @@ monogatari.script ({
 		'narrator 비형이 먼저 담장을 넘고 손을 내민다.',
 		'narrator 설아가 그 손을 잡고 담을 넘는다.',
 		// SCENE 4. 서라벌 저잣거리
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 활기찬 시장 음악.
 		'narrator 금세공 공방, 향 가게, 서책방, 비단 가게, 서역 상인 노점이 보인다.',
@@ -602,8 +602,8 @@ monogatari.script ({
 		'mugyeom 오늘은 돌아가라. 저잣거리는 네 호기심을 받아줄 만큼 한가하지 않다.',
 		'show character mugyeom angry at left',
 		// SCENE 5. 서책방의 설원랑
-			'hide character bihyung with fadeOut',
-			'hide character mugyeom with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene bookshop with fadeIn',
 		// BGM: 조용하고 지적인 선율.
 		'narrator 설아와 비형이 소란을 피해 서책방으로 들어간다.',
@@ -666,8 +666,8 @@ monogatari.script ({
 		'show character seol normal at center with fadeIn',
 		'seol 궁금해서요. 선비님이 이것을 어디까지 가져갈지.',
 		// SCENE 6. 향과 유리잔, 사담
-			'hide character mugyeom with fadeOut',
-			'hide character seol with fadeOut',
+		'hide character mugyeom with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// BGM: 이국적인 현악과 타악.
 		'show character seol normal at center with fadeIn',
@@ -722,8 +722,8 @@ monogatari.script ({
 		'show character sadang normal at center with fadeIn',
 		'sadang 응. 비싸지?',
 		// SCENE 7. 북쪽 우물가의 달
-			'hide character bihyung with fadeOut',
-			'hide character sadang with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character sadang with fadeOut',
 		'show scene market_street with fadeIn',
 		'narrator 시간: 밤. 달이 높이 뜨기 직전.',
 		// BGM: 낮고 긴장감 있는 현악.
@@ -1077,9 +1077,9 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「첫 증표까지 사흘」',
 		'narrator [시스템] 단서 획득: 「셋 중 하나는 거짓이다」',
 		// SCENE 8. 방으로 돌아온 밤
-			'hide character bihyung with fadeOut',
-			'hide character mugyeom with fadeOut',
-			'hide character sadang with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character mugyeom with fadeOut',
+		'hide character sadang with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용하고 불안한 현악.
 		'narrator 설아는 방으로 돌아오자마자 탁자 위에 단서들을 펼친다.',
@@ -1178,8 +1178,8 @@ monogatari.script ({
 		// SCENE 1. 눈 녹는 아침
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 잔잔한 현악.
 		'narrator 단이가 병풍 뒤에서 남장옷을 꺼낸다.',
@@ -1212,7 +1212,7 @@ monogatari.script ({
 		'show character dani normal at left',
 		'seola 나도 그 생각이 제일 싫어.',
 		// SCENE 2. 안채의 침묵
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 김화련, 박겸수, 단이.
 		'narrator 박부인 김화련은 예물 목록을 보고 있고, 박겸수는 고개를 숙이고 있다.',
@@ -1253,7 +1253,7 @@ monogatari.script ({
 		'narrator 화난 사람은 많았지만,',
 		'narrator 놀란 사람은 적었다.',
 		// SCENE 2.5. 봉인과 마음
-			'hide character hwaryeon with fadeOut',
+		'hide character hwaryeon with fadeOut',
 		'show scene park_library with fadeIn',
 		// Cast: 설아, 박진관.
 		'narrator 설아는 대청을 나온 뒤 서고로 향한다.',
@@ -1303,7 +1303,7 @@ monogatari.script ({
 		'narrator 설아는 조금 안심한다.',
 		'narrator 하지만 설아야. 총명함은 등불과 같다. 길을 밝히기도 하지만, 멀리 있는 자에게 네 위치를 알리기도 하지.',
 		// SCENE 3. 무겸공자의 방문
-			'hide character jingan with fadeOut',
+		'hide character jingan with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 김화련, 김무겸, 단이.
 		'narrator 김무겸이 공식 조사 명목으로 찾아온다.',
@@ -1357,7 +1357,7 @@ monogatari.script ({
 		'wait 500',
 		'narrator 설아가 굳는다.',
 		// SCENE 4. 설원랑의 서신과 사담의 향낭
-			'hide character mugyeom with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene seola_room with fadeIn',
 		'narrator 단이가 서신과 향낭을 가져온다.',
 		'narrator 설원랑의 서신에는 천문 기록 조각을 다시 보자는 말이 적혀 있다.',
@@ -1383,7 +1383,7 @@ monogatari.script ({
 		'dani 아니요. 세 분 다 방식만 다를 뿐, 가만히 있으라는 뜻입니다.',
 		'seola 그럼 더 가만히 있을 수 없지.',
 		// SCENE 5. 다시 남장
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene seola_room with fadeIn',
 		'narrator 단이가 남장 준비를 도와준다.',
 		'show character dani normal at left with fadeIn',
@@ -1436,8 +1436,8 @@ monogatari.script ({
 		// 6-A. 김무겸 선택 시
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 김무겸.
 		'narrator 김무겸은 설아를 보자마자 눈을 가늘게 뜬다.',
@@ -1473,7 +1473,7 @@ monogatari.script ({
 		// 6-B. 설원랑 선택 시
 		'show background black',
 		'wait 500',
-			'hide character mugyeom with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene bookshop with fadeIn',
 		// Cast: 설아, 설원랑.
 		'narrator 서책방에서 설아가 높은 책더미를 살피던 중, 책들이 무너진다.',
@@ -1518,7 +1518,7 @@ monogatari.script ({
 		// 6-C. 사담 선택 시
 		'show background black',
 		'wait 500',
-			'hide character seol with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 사담, 비형.
 		'narrator 사담은 설아의 손목을 잡고 금실 매듭을 본다.',
@@ -1565,8 +1565,8 @@ monogatari.script ({
 		// 6-D. 비형 선택 시
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character sadang with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character sadang with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// Cast: 설아, 비형.
 		'narrator 비형은 설아를 곧장 함정이 기다리는 곳이 아니라 실가게로 데려간다.',
@@ -1591,7 +1591,7 @@ monogatari.script ({
 		// SCENE 6.5. 네 갈래 단서가 모이는 곳
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// Cast: 설아, 비형. 선택에 따라 단이 또는 조사 상대의 짧은 회상 삽입 가능.
 		'narrator 설아는 어둠이 내려앉은 골목 안쪽에서 숨을 고른다.',
@@ -1658,7 +1658,7 @@ monogatari.script ({
 		// SCENE 7. 별당 잠입과 박겸수의 밀담
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene park_outside with fadeIn',
 		'narrator 설아와 비형은 예물고 근처로 잠입한다.',
 		'narrator 달빛은 낮은 담장 위에 희미하게 걸려 있고, 별당 주변은 이상할 만큼 조용하다.',
@@ -1788,7 +1788,7 @@ monogatari.script ({
 		'narrator 집 안에서 아직 믿어도 되는 어른이 남아 있다고 느끼게 해주는 빛.',
 		'narrator 그 빛을 보자, 나는 조금 숨을 쉴 수 있었다.',
 		// SCENE 9. 세 개의 답장
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene seola_room with fadeIn',
 		'narrator 설아가 방으로 돌아오자, 단이가 세 쪽지를 가져온다.',
 		'show character mugyeom normal at left with fadeIn',
@@ -1829,9 +1829,9 @@ monogatari.script ({
 		'wait 500',
 		'show background black',
 		'wait 500',
-			'hide character mugyeom with fadeOut',
-			'hide character sadang with fadeOut',
-			'hide character seol with fadeOut',
+		'hide character mugyeom with fadeOut',
+		'hide character sadang with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 잔잔하지만 불안한 현악.
 		'narrator 탁자 위에는 전날 밤의 단서들이 놓여 있다.',
@@ -1980,7 +1980,7 @@ monogatari.script ({
 		'wait 500',
 		'show background black',
 		'wait 500',
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// BGM: 단정하지만 답답한 현악.
 		'narrator 박부인은 예물 목록을 보고 있었다.',
@@ -2058,7 +2058,7 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「박겸수의 왼손」',
 		'narrator [시스템] 박겸수 의심도 +1',
 		// SCENE 3. 남장 준비와 역할 분담
-			'hide character hwaryeon with fadeOut',
+		'hide character hwaryeon with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용한 현악.
 		'narrator 단이가 남장옷을 꺼낸다.',
@@ -2149,8 +2149,8 @@ monogatari.script ({
 		// SCENE 4. 도삼의 첫 단서
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 활기찬 시장 음악 속 낮은 장단.
 		'narrator 설아는 남장한 ‘설’로 움직인다.',
@@ -2206,7 +2206,7 @@ monogatari.script ({
 		'wait 500',
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// BGM: 긴장감 있는 저잣거리 선율.
 		'narrator 향 가게 앞은 화려했지만, 뒤편은 달랐다.',
@@ -2297,8 +2297,8 @@ monogatari.script ({
 		'wait 500',
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character mugyeom with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene special_top with fadeIn',
 		// BGM: 목탁 소리와 부드러운 현악.
 		'narrator 설아는 사찰 표식이 찍힌 천 조각을 들고 남쪽 길로 향했다.',
@@ -2396,7 +2396,7 @@ monogatari.script ({
 		// SCENE 7. 청류상단 주변 — 사담과 가짜 향
 		'show background black',
 		'wait 500',
-			'hide character seol with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// BGM: 이국적인 현악과 잔잔한 타악.
 		'narrator [시스템] 청류상단 주변에 들어서자마자 설아는 시선을 느꼈다.',
@@ -2491,8 +2491,8 @@ monogatari.script ({
 		'narrator [시스템] 사담 호감 +1',
 		'narrator [시스템] 사담 위험도 +1',
 		// SCENE 8. 단이의 빨래터 정보
-			'hide character bihyung with fadeOut',
-			'hide character sadang with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character sadang with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 물소리와 낮은 현악.
 		'narrator 단이는 하인들 사이에 섞여 있었다.',
@@ -2551,8 +2551,8 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「설과 박씨 가문을 붙이는 소문」',
 		'narrator [시스템] 단이 신뢰 +1',
 		// SCENE 9. 박겸수 추적
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 낮고 불안한 현악.
 		'narrator 단이의 말을 들은 뒤, 설아는 박겸수를 떠올렸다.',
@@ -2623,7 +2623,7 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「향합 비단의 붉은 올」',
 		'narrator [시스템] 박겸수 의심도 +1',
 		// SCENE 10. 장물상 골목의 덫
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 긴박한 타악.
 		'narrator 박겸수를 더 따라가려던 설아는 골목 안쪽에서 들려오는 목소리에 멈췄다.',
@@ -2719,8 +2719,8 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「장물상의 공개 고발」',
 		'narrator [시스템] 김무겸 신뢰/의심 동시 상승',
 		// SCENE 11. 비형과의 충돌
-			'hide character bihyung with fadeOut',
-			'hide character mugyeom with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 낮고 감정적인 현악.
 		'narrator [시스템] 소란을 벗어난 뒤, 설아와 비형이 숨을 고른다.',
@@ -2788,7 +2788,7 @@ monogatari.script ({
 		'narrator [시스템] 비형 신뢰 +1',
 		'narrator [시스템] 비형 관계 변화: “그림자”에서 “동행자”로 한 단계 진전',
 		// SCENE 12. 돌아온 방, 향합의 일부
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 불안한 현악.
 		'narrator [시스템] 설아, 단이, 비형이 담을 넘어 돌아온다.',
@@ -2908,8 +2908,8 @@ monogatari.script ({
 		'narrator [시스템] 단서 획득: 「박겸수의 경고」',
 		'narrator [시스템] 설아 용의자 플래그 개방',
 		// SCENE 13. 세 통의 밤편지
-			'hide character bihyung with fadeOut',
-			'hide character hwaryeon with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character hwaryeon with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용하고 미스터리한 선율.
 		'narrator 박부인이 나간 뒤, 방 안에는 설아와 단이, 비형만 남는다.',
@@ -3070,8 +3070,8 @@ monogatari.script ({
 		// SCENE 1. 향합이 남긴 길
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene seola_room with fadeIn',
 		// BGM: 조용하고 불안한 현악.
 		// Cast: 설아, 단이.
@@ -3177,7 +3177,7 @@ monogatari.script ({
 		'show character dani normal at left with fadeIn',
 		'dani 아가씨만 그렇게 생각하십니다.',
 		// SCENE 2. 도삼을 찾아가는 길
-			'hide character dani with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 시장 소음이 깔리지만, 전보다 조금 불안한 선율.
 		// Cast: 설아, 비형.
@@ -3252,8 +3252,8 @@ monogatari.script ({
 		'seola 응.',
 		'seola 내 이름이 찾아오는 위험이라면, 나도 그쪽으로 가야지.',
 		// SCENE 3. 도삼의 두 번째 얼굴
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene market_street with fadeIn',
 		// BGM: 낮고 은밀한 현악.
 		// Cast: 설아, 비형, 도삼.
@@ -3340,7 +3340,7 @@ monogatari.script ({
 		// SCENE 4. 연소하와 내월
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// BGM: 낮고 긴장감 있는 현악.
 		// Cast: 설아, 비형, 도삼, 연소하.
@@ -3435,7 +3435,7 @@ monogatari.script ({
 		// SCENE 5. 돌아갈 수 있는 문
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene dark_alley with fadeIn',
 		// BGM: 바람 소리, 멀어지는 시장 소음.
 		// Cast: 설아, 도삼, 비형. 후반에 연소하.
@@ -3505,7 +3505,7 @@ monogatari.script ({
 		// SCENE 6. 달빛 아래의 군주
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene special_top with fadeIn',
 		'show particles stars',
 		// BGM: 고요하고 품격 있는 현악.
@@ -3650,7 +3650,7 @@ monogatari.script ({
 		'hide particles stars',
 		'show background black',
 		'wait 500',
-			'hide character seondeok with fadeOut',
+		'hide character seondeok with fadeOut',
 		'show scene special_top with fadeIn',
 		// BGM: 달빛처럼 차갑고 맑은 현악.
 		// Cast: 설아, 연소하, 도삼, 비형.
@@ -3750,8 +3750,8 @@ monogatari.script ({
 		'bihyung 말하지 못하는 밤에도, 곁에 있겠습니다.',
 		'narrator 설아는 아주 작게 고개를 끄덕인다.',
 		// SCENE 8. 서고의 등불
-			'hide character bihyung with fadeOut',
-			'hide character seondeok with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character seondeok with fadeOut',
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 따뜻하지만 어딘가 서늘한 거문고 선율.
 		// Cast: 설아, 박진관. 비형은 문밖 대기.
@@ -3953,8 +3953,8 @@ monogatari.script ({
 		'narrator 비형은 아무 말 없이 설아 곁에 선다.',
 		'seola 서고 안의 등불은 아직 꺼지지 않는다.',
 		// SCENE 9. 유월문이라는 이름
-			'hide character bihyung with fadeOut',
-			'hide character jingan with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character jingan with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// BGM: 낮고 불길한 현악.
 		// Cast: 설아, 도삼, 연소하, 비형.
@@ -4050,7 +4050,7 @@ monogatari.script ({
 		// SCENE 10. 확인식 전야
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene park_outside with fadeIn',
 		// BGM: 조용한 달빛 테마.
 		// Cast: 설아, 단이, 비형.
@@ -4224,8 +4224,8 @@ monogatari.script ({
 		// SCENE 1. 월령의 첫 보고
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
-			'hide character dani with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character dani with fadeOut',
 		'show scene market_street with fadeIn',
 		// Cast: 설아, 도삼, 연소하.
 		'narrator 설아는 전날보다 단정한 남장 차림이다.',
@@ -4320,7 +4320,7 @@ monogatari.script ({
 		// SCENE 3. 첫 증표 확인식
 		'show background black',
 		'wait 500',
-			'hide character jingan with fadeOut',
+		'hide character jingan with fadeOut',
 		'show scene park_outside with fadeIn',
 		// BGM: 낮고 장중한 의례 음악.
 		// Cast: 설아, 박윤량, 김화련, 박진관, 박겸수, 김무겸, 설원랑, 비형.
@@ -4429,8 +4429,8 @@ monogatari.script ({
 		'narrator 그리고 그중 하나는,',
 		'narrator 아무도 공식적으로 부르지 않은 이름을 향하고 있었다.',
 		// SCENE 4. 문월함의 빈칸
-			'hide character jingan with fadeOut',
-			'hide character mugyeom with fadeOut',
+		'hide character jingan with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene bookshop with fadeIn',
 		// BGM: 낮고 지적인 선율.
 		// Cast: 설아, 설원랑.
@@ -4534,7 +4534,7 @@ monogatari.script ({
 		// 5-A. 김무겸 — 검월식의 경고
 		'show background black',
 		'wait 500',
-			'hide character seol with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_outside with fadeIn',
 		// Cast: 설아, 김무겸.
 		'narrator 김무겸은 훈련장 한쪽에서 검을 닦고 있다.',
@@ -4628,7 +4628,7 @@ monogatari.script ({
 		'show character mugyeom angry at left with fadeIn',
 		'mugyeom 네가 끝까지 가겠다면, 적어도 내가 모르는 곳에서 다치지는 마라.',
 		// 5-B. 설원랑 — 기록의 끝
-			'hide character mugyeom with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene bookshop with fadeIn',
 		// Cast: 설아, 설원랑.
 		'show character mugyeom sad at left with fadeIn',
@@ -4686,8 +4686,8 @@ monogatari.script ({
 		'seol 낭자께서 혼자 읽기에는, 이 기록이 너무 오래되고 외로워 보여서요.',
 		'narrator 설아는 대답하지 못한다.',
 		// 5-C. 사담 — 푸른 유리의 침묵
-			'hide character mugyeom with fadeOut',
-			'hide character seol with fadeOut',
+		'hide character mugyeom with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// BGM: 낮고 이국적인 현악.
 		// Cast: 설아, 사담.
@@ -4786,7 +4786,7 @@ monogatari.script ({
 		'sadang 그리고…… 내가 거짓말할 때, 조금 느려지는 숨도.',
 		'show character sadang smile',
 		// 5-D. 비형 — 서고의 열쇠 흔적
-			'hide character sadang with fadeOut',
+		'hide character sadang with fadeOut',
 		'show scene park_library with fadeIn',
 		// Cast: 설아, 비형.
 		'narrator 비형은 등불 없이 길을 걷는다.',
@@ -4873,7 +4873,7 @@ monogatari.script ({
 		// SCENE 6. 박겸수라는 미끼
 		'show background black',
 		'wait 500',
-			'hide character bihyung with fadeOut',
+		'hide character bihyung with fadeOut',
 		'show scene park_outside with fadeIn',
 		// BGM: 긴장감 있는 낮은 현악.
 		// Cast: 설아, 비형, 김무겸, 설원랑, 박겸수.
@@ -4983,9 +4983,9 @@ monogatari.script ({
 		'seola 가야 해.',
 		'narrator 설아는 하인을 따라 창고 밖으로 나선다.',
 		// SCENE 6.5. 서고에 모인 사람들
-			'hide character bihyung with fadeOut',
-			'hide character mugyeom with fadeOut',
-			'hide character seol with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character mugyeom with fadeOut',
+		'hide character seol with fadeOut',
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 차가운 거문고 선율.
 		// Cast: 설아, 박진관, 김무겸, 설원랑, 비형, 박겸수.
@@ -5140,9 +5140,9 @@ monogatari.script ({
 		'narrator 그런데 이상하게, 그 말은 나를 지키는 울타리가 아니라',
 		'narrator 내 앞에 닫히는 문처럼 느껴졌다.',
 		// SCENE 7. 스승님의 마지막 조언
-			'hide character bihyung with fadeOut',
-			'hide character jingan with fadeOut',
-			'hide character mugyeom with fadeOut',
+		'hide character bihyung with fadeOut',
+		'hide character jingan with fadeOut',
+		'hide character mugyeom with fadeOut',
 		'show scene park_library with fadeIn',
 		// BGM: 낮고 차가운 거문고 선율.
 		// Cast: 설아, 박진관.
@@ -5242,7 +5242,7 @@ monogatari.script ({
 		'narrator 박진관은 닫힌 문을 오래 바라본다.',
 		'narrator 그래서 내가 맡아두려 한 것이다.',
 		// SCENE 8. 세 증표의 진짜 의미
-			'hide character jingan with fadeOut',
+		'hide character jingan with fadeOut',
 		'show scene park_indoor with fadeIn',
 		// Cast: 설아, 연소하, 도삼.
 		'narrator 탁자 위에 단서들이 놓여 있다.',
