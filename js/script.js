@@ -27,7 +27,11 @@ monogatari.action ('particles').particles ({});
 monogatari.action ('canvas').objects ({});
 monogatari.configuration ('credits', {});
 monogatari.assets ('gallery', {});
-monogatari.assets ('music', {});
+monogatari.assets ('music', {
+		'moon_jade_oath': 'moon_jade_oath.mp3',
+		'roofline_dawn': 'roofline_dawn.mp3',
+		'peach_teacup_prank': 'peach_teacup_prank.mp3'
+	});
 monogatari.assets ('voices', {});
 monogatari.assets ('sounds', {});
 monogatari.assets ('videos', {});
@@ -192,6 +196,7 @@ monogatari.script ({
 		'show background #000000',
 		// SCENE 0. 타이틀 전 독백
 		'show background #000000',
+		'play music moon_jade_oath',
 		// BGM: 낮고 느린 현악.
 		// SFX: 멀리서 울리는 종소리, 눈 내리는 소리.
 		'show particles snow',
@@ -230,12 +235,14 @@ monogatari.script ({
 
 	'Prologue': [
 		// SCENE 1. 박씨 가문의 아침
+		'play music roofline_dawn',
 		'hide particles snow',
 		'show background black',
 		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// BGM: 단정하고 밝은 궁중풍 현악.
 		'narrator 방 안에는 혼례복 상자, 금실 자수가 놓인 천, 예물 목록이 펼쳐져 있다.',
+		'play music peach_teacup_prank',
 		'narrator 단이는 설아의 머리를 빗기며 빠르게 말한다.',
 		'show character dani normal at left with fadeIn',
 		'dani 아가씨, 일어나셔야 합니다. 오늘은 혼례복 치수도 다시 재고, 예물함도 확인하고, 부인마님께 문안도 드려야 하고, 또……',
