@@ -196,7 +196,7 @@ monogatari.script ({
 		'show background #000000',
 		// SCENE 0. 타이틀 전 독백
 		'show background #000000',
-		'play music moon_jade_oath',
+		'play music moon_jade_oath with loop',
 		// BGM: 낮고 느린 현악.
 		// SFX: 멀리서 울리는 종소리, 눈 내리는 소리.
 		'show particles snow',
@@ -235,14 +235,14 @@ monogatari.script ({
 
 	'Prologue': [
 		// SCENE 1. 박씨 가문의 아침
-		'play music roofline_dawn',
+		'play music roofline_dawn with loop',
 		'hide particles snow',
 		'show background black',
 		'wait 500',
 		'show scene park_indoor with fadeIn',
 		// BGM: 단정하고 밝은 궁중풍 현악.
 		'narrator 방 안에는 혼례복 상자, 금실 자수가 놓인 천, 예물 목록이 펼쳐져 있다.',
-		'play music peach_teacup_prank',
+		'play music peach_teacup_prank with loop',
 		'narrator 단이는 설아의 머리를 빗기며 빠르게 말한다.',
 		'show character dani normal at left with fadeIn',
 		'dani 아가씨, 일어나셔야 합니다. 오늘은 혼례복 치수도 다시 재고, 예물함도 확인하고, 부인마님께 문안도 드려야 하고, 또……',
@@ -304,6 +304,7 @@ monogatari.script ({
 		'seola 아직 아무 말도 안 했어.',
 		'dani 그 눈빛은 늘 사고 치기 직전의 눈빛입니다.',
 		// SCENE 1.5. 서고의 스승님
+		'play music roofline_dawn with loop',
 		'show background black',
 		'wait 500',
 		'show scene park_library with fadeIn',
@@ -352,6 +353,7 @@ monogatari.script ({
 		'seola ……예.',
 		'narrator 설아가 나간 뒤, 박진관은 닫힌 문을 바라본다.',
 		'narrator 이름을 벗으려 드는 아이는, 결국 이름의 무게를 더 깊이 알게 되지.',
+		'play music peach_teacup_prank with loop',
 		// SCENE 2. 남장 준비
 		'show scene seola_room with fadeIn',
 		// BGM: 가볍고 장난스러운 현악.
@@ -511,6 +513,7 @@ monogatari.script ({
 		'wait 500',
 		'narrator 설아의 숨이 멎는다.',
 		'narrator 김무겸은 끝내 이름을 말하지 않고 주머니를 돌려준다.',
+		'play music roofline_dawn with loop',
 		'mugyeom 오늘은 돌아가라. 저잣거리는 네 호기심을 받아줄 만큼 한가하지 않다.',
 		// SCENE 5. 서책방의 설원랑
 		'show scene bookshop with fadeIn',
@@ -559,6 +562,7 @@ monogatari.script ({
 		'seol 제가 가지면 너무 많은 사람이 제 손을 보려 할 테니까요.',
 		'seola 저를 믿으십니까?',
 		'seol 믿지는 않습니다.',
+		'play music peach_teacup_prank with loop',
 		'seola 그런데 왜?',
 		'seol 궁금해서요. 선비님이 이것을 어디까지 가져갈지.',
 		// SCENE 6. 향과 유리잔, 사담
@@ -902,6 +906,7 @@ monogatari.script ({
 		'narrator 화면이 천천히 어두워진다.',
 		'narrator [시스템] 단서 획득: 「금실 매듭 조각」',
 		'narrator [시스템] 단서 획득: 「푸른 유리구슬」',
+		'play music roofline_dawn with loop',
 		'narrator [시스템] 단서 갱신: 「찢어진 천문 기록」',
 		'narrator [시스템] 단서 획득: 「첫 증표까지 사흘」',
 		'narrator [시스템] 단서 획득: 「셋 중 하나는 거짓이다」',
@@ -1082,6 +1087,7 @@ monogatari.script ({
 		'seola 스승님은 이미 그렇게 생각하고 계셨습니까?',
 		'jingan 나는 아직 아무것도 단정하지 않았다.',
 		'narrator 하지만 단정하지 않는다는 말은, 의심할 여지가 있다는 뜻이기도 하죠.',
+		'play music peach_teacup_prank with loop',
 		'jingan 총명하구나.',
 		'jingan 그 말은 칭찬처럼 들린다.',
 		'narrator 설아는 조금 안심한다.',
@@ -1122,6 +1128,7 @@ monogatari.script ({
 		'mugyeom 붓이 꽤 날카롭군.',
 		'narrator 김무겸이 손을 놓는다.',
 		'show character mugyeom angry',
+		'play music roofline_dawn with loop',
 		'mugyeom 그 선비를 보게 되면 전해.',
 		'seola 무엇을요?',
 		'mugyeom 오늘 밤은 담을 넘지 말라고.',
@@ -1140,6 +1147,7 @@ monogatari.script ({
 		'mugyeom 금실을 찾고 싶으면, 매듭을 묶은 손보다 풀어본 손을 먼저 찾아.',
 		'narrator 그리고 작은 선비님.',
 		'mugyeom 오늘은 넘어지지 마. 보는 사람이 많아.',
+		'play music peach_teacup_prank with loop',
 		'show character dani worried at left with fadeIn',
 		'dani 무겸공자는 담을 넘지 말라 하고, 설원랑 학사님은 확인식이 열리는 밤을 조심하라 하고, 사담은 향을 따라오라 하고……',
 		'seola 다들 나보고 가만히 있으라는 말은 안 하네.',
@@ -1519,6 +1527,7 @@ monogatari.script ({
 	],
 
 	'Chapter2': [
+		'play music peach_teacup_prank with loop',
 		// 제2장
 		// 저잣거리의 설
 		// 부제: 향합이 사라진 자리
@@ -2330,6 +2339,7 @@ monogatari.script ({
 		'seola 내 앞을 막지 말고. 내 뒤에서만 지키지도 말고. 옆에서.',
 		'narrator 잠시 후, 비형이 대답한다.',
 		'bihyung 알겠습니다.',
+		'play music roofline_dawn with loop',
 		'seola 정말?',
 		'bihyung 가능한 한.',
 		'seola 거기서 또 가능한 한이야?',
@@ -2544,6 +2554,7 @@ monogatari.script ({
 	],
 
 	'Chapter2_Ending': [
+		'play music moon_jade_oath with loop',
 		// 2장 엔딩 문구
 		'narrator 향합을 찾는 줄 알았다.',
 		'narrator 그러나 향합은 돌아오지 않았다.',
@@ -2574,6 +2585,7 @@ monogatari.script ({
 		'narrator 그때 나는 알지 못했다.',
 		'narrator 내 혼례에 묻은 향이,',
 		'narrator 내 방에서 시작된 것이 아니라는 것을.',
+		'play music roofline_dawn with loop',
 		'narrator 내 이름에 묻은 약속이,',
 		'narrator 나보다 오래된 사람들의 손에서 피워졌다는 것을.',
 		'narrator 그리고 그 향을 따라가면,',
@@ -2654,6 +2666,7 @@ monogatari.script ({
 		'seola 넘어진 뒤에 바닥을 보면 늦잖아.',
 		'narrator 단이는 한숨을 쉰다.',
 		'dani 이번에도 제가 말려도 안 들으실 거죠?',
+		'play music peach_teacup_prank with loop',
 		'seola 응.',
 		'dani 그럼 적어도 머리는 제가 다시 묶어드리겠습니다.',
 		'dani 오늘은 병든 선비 말고, 수상하지만 멀쩡한 선비처럼 보여야 하니까요.',
@@ -2795,6 +2808,7 @@ monogatari.script ({
 		'seola 당신은 누구에게 돈을 받았습니까?',
 		'narrator 도삼은 어깨를 으쓱한다.',
 		'dosam 저는 돈도 받고, 빚도 받고, 가끔은 목숨값도 받습니다.',
+		'play music roofline_dawn with loop',
 		'seola 장난하지 마세요.',
 		'narrator 도삼의 얼굴에서 장난기가 조금 빠진다.',
 		'dosam 저를 선비님께 보낸 건 이분입니다.',
@@ -2886,6 +2900,7 @@ monogatari.script ({
 		'narrator 내 이름은 왜 내가 모르는 곳에서 불리고 있었을까.',
 		'seola 저는 아직 아무것도 받아들이지 않았습니다.',
 		'sonha 그렇게 말씀하셔도 됩니다.',
+		'play music peach_teacup_prank with loop',
 		'dosam 보기만 하셔도 됩니다.',
 		'dosam 물론 보다가 가만히 계실 분은 아닌 것 같지만요.',
 		'narrator 설아가 도삼을 노려본다.',
@@ -2952,6 +2967,7 @@ monogatari.script ({
 		'dosam 예.',
 		'seola 당신 말대로 보기 시작하면 돌아가기 어렵겠죠.',
 		'dosam 대개는요.',
+		'play music moon_jade_oath with loop',
 		'seola 그럼 적어도 눈을 감고 끌려가지는 않겠습니다.',
 		'narrator 도삼은 조용히 설아를 바라본다.',
 		'dosam 역시 보통 아씨는 아니시네요.',
@@ -3058,6 +3074,7 @@ monogatari.script ({
 		'seondeok 월령은 달의 명을 받되, 달빛 아래에서 자기 눈을 감아서는 안 된다.',
 		'seondeok 네가 눈을 뜨고 있는 한, 나는 네 판단을 기다리겠다.',
 		'narrator 설아는 깊이 고개를 숙인다.',
+		'play music peach_teacup_prank with loop',
 		'seola 그럼 저는…… 보겠습니다.',
 		'seola 제가 무엇에 묶이려 하는지.',
 		'narrator 그리고 무엇을 끊어야 하는지.',
@@ -3146,6 +3163,7 @@ monogatari.script ({
 		'sonha 그렇습니다.',
 		'seola 받았는데도요?',
 		'sonha 표식은 문을 여는 열쇠일 뿐입니다.',
+		'play music roofline_dawn with loop',
 		'sonha 그 문을 열지 말지는 낭자의 선택입니다.',
 		'narrator 설아는 다시 표식을 품 안에 넣는다.',
 		'seola 그럼 오늘은…… 아직 열지 않겠습니다.',
@@ -3379,6 +3397,7 @@ monogatari.script ({
 		'sonha 누가 증표의 말을 대신하려 하는지.',
 		'narrator 그리고 누가 침묵하는지.',
 		'dosam 말 많은 사람보다, 말하지 않는 사람이 더 많은 걸 감추는 날도 있거든요.',
+		'play music moon_jade_oath with loop',
 		'narrator 설아는 품 안의 월령 표식과 서고 출입패를 동시에 느낀다.',
 		'dosam 하나는 여왕이 준 것.',
 		'dosam 하나는 스승이 준 것.',
@@ -3528,6 +3547,7 @@ monogatari.script ({
 		'narrator 그리고 그 자리에 없지만,',
 		'narrator 분명히 어딘가에서 나를 보고 있을 푸른 유리.',
 		'narrator 스승님은 말씀하셨다.',
+		'play music peach_teacup_prank with loop',
 		'narrator 기록이 말하지 않는 곳을 보라고.',
 		'narrator 사람이 대답하지 않는 곳을 보라고.',
 		'narrator 문장이 갑자기 끊긴 곳,',
@@ -3562,6 +3582,7 @@ monogatari.script ({
 		'narrator 그러나 오늘은 그 이름의 자리에 서야 할지도 모릅니다.',
 		'narrator 도삼이 지도와 작은 단서들을 탁자 위에 늘어놓는다.',
 		'sonha 김씨 쪽 검 장식 일부가 사라졌다.',
+		'play music roofline_dawn with loop',
 		'sonha 설씨 쪽 문월함의 봉인이 최근 열렸다.',
 		'sonha 청류상단 주변에서 푸른 유리 장식이 다시 나타났다.',
 		'sonha 박씨 가문 향합은 단순 혼례 예물이 아닐 수 있다.',
@@ -3601,6 +3622,7 @@ monogatari.script ({
 		'narrator 설아는 그 말을 조용히 받아 적듯 마음에 새긴다.',
 		'seola 이미 정해진 자리라면, 제 뜻은 어디에 있습니까?',
 		'jingan 의식은 마음을 묻는 자리가 아니다.',
+		'play music moon_jade_oath with loop',
 		'jingan 흔들리는 마음을 제자리에 앉히는 자리다.',
 		'narrator 설아는 미세하게 반발한다.',
 		'seola 스승님은 늘 마음보다 자리를 먼저 말씀하십니다.',
@@ -3693,6 +3715,7 @@ monogatari.script ({
 		'jingan 의식은 흔들림을 잠재우기 위해 있는 것입니다.',
 		'jingan 오늘은 더 논하지 않는 것이 좋겠습니다.',
 		'wait 500',
+		'play music roofline_dawn with loop',
 		'narrator 하지만 이제 막 흔들린 것 아닙니까?',
 		'jingan 설아야. 때로는 흔들림을 더 흔들어서는 안 된다.',
 		'seola 흔들림이 아니라, 빠진 것일 수도 있습니다.',
@@ -3769,6 +3792,7 @@ monogatari.script ({
 		'seol 믿는 사람을 읽는 일은, 믿지 않는 사람을 의심하는 것보다 훨씬 어렵습니다.',
 		'seol 그래도 해야 합니다.',
 		'seol 믿기 때문에요.',
+		'play music peach_teacup_prank with loop',
 		'narrator 설아의 손끝이 문서 가장자리를 누른다.',
 		'seol 설아 낭자께서는 이미 읽기 시작했습니다.',
 		'seol 스스로 눈치채지 못했을 뿐입니다.',
@@ -4123,6 +4147,7 @@ monogatari.script ({
 		'wait 500',
 		'narrator 설아의 눈이 흔들린다.',
 		'seola 서고……',
+		'play music roofline_dawn with loop',
 		'narrator 하인은 불안하게 주변을 본다.',
 		'narrator [하인] 어서 오셔야 합니다. 진관 어른께서 기다리십니다.',
 		'narrator 김무겸이 박겸수를 붙잡는다.',
@@ -4357,6 +4382,7 @@ monogatari.script ({
 		'sonha 월영의 맹약은 한 명의 정혼자를 정하기 위한 장치가 아닙니다.',
 		'sonha 박씨 가문을 중심으로, 서로 다른 세 힘이 균형을 이루도록 만든 오래된 약조입니다.',
 		'seola 그럼 제 혼례는……',
+		'play music moon_jade_oath with loop',
 		'sonha 누군가에게 넘겨지는 의식이 아니라,',
 		'sonha 월령께서 누구와 그 약조를 감당할지 선택하는 의식에 가깝습니다.',
 		'narrator 설아는 눈을 감는다.',
@@ -4492,6 +4518,7 @@ monogatari.script ({
 	],
 
 	'CommonEnding': [
+		'play music moon_jade_oath with loop',
 		// 공통 엔딩
 		'narrator 설아는 선택한 단서를 손에 쥔다.',
 		'narrator 나는 아직 아무것도 끝내지 못했다.',
@@ -4508,6 +4535,7 @@ monogatari.script ({
 	],
 
 	'End': [
+		'play music moon_jade_oath with loop',
 		'end'
 	]
 });
