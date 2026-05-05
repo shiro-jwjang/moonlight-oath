@@ -186,6 +186,67 @@ CG 이미지를 표시한 상태에서 캐릭터를 show하면 겹칠 수 있음
 
 ---
 
+## 7. 표정 변화
+
+### 기본 원칙: 2~3문장마다 표정 변경
+
+캐릭터가 연속으로 대사할 때, **2~3문장마다 최소 한 번은 표정을 바꿔야 함.** 감정 변화, 반응, 호흸을 표현하는 핵심 수단임.
+
+```
+// ❌ 잘못됨 — 6문장 동안 표정 변화 없음
+'show character dani normal at left with fadeIn',
+'dani 오빠, 어디 가는 거야?',
+'dani 아까도 말 안 했잖아.',
+'dani 매일 늦게 들어오면 혼나.',
+'dani 이번엔 진짜 혼나.',
+'dani 엄마한테 일러버릴 거야.',
+'dani 알아서 해.',
+
+// ✅ 올바름 — 2~3문장마다 표정 변화
+'show character dani normal at left with fadeIn',
+'dani 오빠, 어디 가는 거야?',
+'dani 아까도 말 안 했잖아.',
+'show character dani angry',
+'dani 매일 늦게 들어오면 혼나.',
+'show character dani nagging',
+'dani 이번엔 진짜 혼나.',
+'dani 엄마한테 일러버릴 거야.',
+'show character dani sigh',
+'dani 알아서 해.',
+```
+
+### 표정 변경 방법
+
+1. **`show character <ID> <표정>`** — 별도 라인 (권장, 분명함)
+2. **`'캐릭터ID:표정 대사'`** — 대사 라인에 인라인 (간단한 변경)
+
+```
+'show character seol worried',           // 방법 1: 별도 라인
+'seol:angry 정말 실망이에요.',            // 방법 2: 인라인
+```
+
+### 표정 선택 가이드
+
+| 상황 | 추천 표정 |
+|------|----------|
+| 평온한 대화 | `normal` |
+| 기분 좋음 | `smile`, `happy` |
+| 화남/짜증 | `angry`, `bitter` |
+| 걱정/불안 | `worried`, `sad` |
+| 놀람 | `surprised`, `shocked` |
+| 장난/익살 | `playful`, `conspiratorial` |
+| 진지함 | `serious` |
+| 억울함 | `wronged` |
+| 눈물 | `crying`, `emotional` |
+
+### 주의
+
+- **나레이션 라인은 표정 변화 간격에 포함하지 않음** (캐릭터 대사 라인만 카운트)
+- 같은 표정으로 돌아가는 것도 변화로 인정 (예: angry → normal → angry)
+- 문맥에 맞지 않는 무작위 표정 변경은 피할 것
+
+---
+
 ## 체크리스트 (커밋 전 확인)
 
 - [ ] `show character` 전에 같은 위치 기존 캐릭터 `hide` 했는가?
