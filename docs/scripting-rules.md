@@ -63,18 +63,35 @@
 
 ## 2. 표정 변경
 
-### 같은 캐릭터의 표정만 바꿀 때
+### ⚠️ 위치 생략 시 동작 (중요)
 
-위치 생략 시 현재 위치 유지. `show character <ID> <표정>`만으로 변경됨:
+`show character <ID> <표정>`처럼 `at`을 생략하면, **이전 위치와 상관없이 항상 center로 처리됨.** 엔진이 이전 위치를 기억하지 않으므로 주의.
 
 ```
-'show character seol normal at left with fadeIn',
-'seol 안녕하세요.',
-'show character seol smile',    // 위치 유지, 표정만 변경
-'seol 반갑습니다.',
+// ❌ 잘못됨 — left에 배치했지만, 표정만 바꾸려 한 것이 center로 이동해버림
+'show character dani normal at left with fadeIn',
+'dani 대사',
+'show character dani shocked',    // center로 튕김!
+'dani 대사',
+
+// ✅ 올바름 — 표정만 바꿀 때도 at 명시
+'show character dani normal at left with fadeIn',
+'dani 대사',
+'show character dani shocked at left with fadeIn',   // 위치 유지
+'dani 대사',
+
+// ✅ 올바름 — 1명일 때는 아예 at을 안 쓰면 center 기본값
+'show character dani normal with fadeIn',
+'dani 대사',
+'show character dani shocked',   // center → center, 문제 없음
+'dani 대사',
 ```
 
-주의: 위치를 다시 지정하면 이동 애니메이션이 됨 (`with move` 필요 없이 자동 이동).
+**핵심 규칙:**
+- 캐릭터 1명만 화면에 있을 때 → `at` 생략 (center 기본값)
+- 2명 이상 동시 배치 시 → 반드시 `at` 명시
+- left/right에 배치된 캐릭터의 표정만 바꿀 때 → 반드시 `at` 다시 명시
+- 위치를 다시 지정하면 이동 애니메이션이 됨 (`with move` 필요 없이 자동 이동)
 
 ---
 
