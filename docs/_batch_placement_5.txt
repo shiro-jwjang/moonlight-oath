@@ -1,0 +1,892 @@
+
+--- 씬 L3166-L3287 [special_top] 화자: seola, seondeok ---
+show scene special_top with fadeIn
+narrator 연소하의 안내로 설아는 은밀한 별당에 들어선다.
+narrator 방 안에는 평범한 귀부인처럼 보이는 여인이 앉아 있다.
+seola 촛불은 낮게 타오르고, 창밖에는 달빛이 흐른다.
+narrator 그러나 설아는 곧 깨닫는다.
+seola 그 사람은 평범한 귀부인이 아니다.
+narrator 설아는 황급히 예를 갖춘다.
+seola 전하……
+show character seondeok normal at center with fadeIn
+seondeok 고개를 들라.
+seondeok 오늘 이 자리는 조정이 아니니, 네 눈을 보려 한다.
+narrator 설아는 조심스럽게 고개를 든다.
+narrator 선덕여왕은 설아를 오래 바라본다.
+seondeok 그 시선은 차갑지도, 지나치게 따뜻하지도 않다.
+show character seondeok normal at center with fadeIn
+seondeok 마치 오래된 별자리를 읽듯 조용하다.
+seondeok 네 혼례는 네 집안만의 일이 아니다.
+seola 어째서입니까?
+seondeok 그 혼례가 무너지면, 오래된 균형도 함께 무너진다.
+narrator 설아의 얼굴이 굳는다.
+seola 전하께도 저는 균형입니까?
+narrator 연소하가 살짝 숨을 멈춘다.
+narrator 그러나 선덕여왕은 꾸짖지 않는다.
+seola 저는 가문의 증표도, 나라의 저울추도 아닙니다.
+seola 여왕은 대답을 서두르지 않는다.
+narrator 모두가 제게 말합니다.
+seola 가문의 앞날, 혼례의 의미, 오래된 이름, 지켜야 할 자리.
+narrator 하지만 아무도 묻지 않습니다.
+seola 제가 그 자리에 서고 싶은지.
+narrator 여왕은 설아를 오래 바라본다.
+show character seondeok normal2 at center with fadeIn
+seondeok 그래서 네가 여기에 왔다.
+seola 꾸짖지 않으십니까?
+seondeok 왜 꾸짖겠느냐.
+seola 전하께 제 혼례가 나라의 균형이라면서요.
+seola 그런데 저는 지금 그 균형을 두려워하고 있습니다.
+narrator 선덕여왕은 희미하게 웃는다.
+seondeok 두려워하는 사람은 아직 생각하고 있는 사람이다.
+show character seondeok normal at center with fadeIn
+seondeok 생각하지 않는 자는 두려움조차 모른다.
+narrator 설아는 조금 흔들린다.
+seondeok 설아야.
+seondeok 누구도 균형을 위해 태어나지는 않는다.
+narrator 짧은 침묵.
+show character seondeok normal2 at center with fadeIn
+seondeok 다만 어떤 이름은 살아가다 보면 많은 것의 무게를 받게 되지.
+seola 저는 감당할 수 있을지 모르겠습니다.
+seondeok 모른다고 말할 수 있는 이는 아직 무너지지 않은 사람이다.
+seola 전하께서는 제가 월령이 되기를 바라십니까?
+seondeok 바란다.
+narrator 설아의 눈이 흔들린다.
+narrator 하지만 원한다고 해서 네 뜻 없이 끌고 갈 생각은 없다.
+seola 월령이 되면 전하의 사람이 되는 것입니까?
+show character seondeok normal at center with fadeIn
+seondeok 아니다.
+narrator 선덕여왕의 목소리는 단호하다.
+seondeok 월령이 되라는 것은 내 사람이 되라는 뜻이 아니다.
+seondeok 네 눈으로 보고, 네 이름으로 판단하라는 뜻이다.
+seola 제가 본 것이 전하의 뜻과 다르면요?
+narrator 연소하가 순간 숨을 멈춘다.
+narrator 선덕여왕은 오히려 조용히 웃는다.
+show character seondeok normal2 at center with fadeIn
+seondeok 그렇다면 네가 본 것을 말해야지.
+narrator 달빛이 왕의 발밑에만 닿는 것은 아니니까.
+narrator 설아는 말없이 여왕을 본다.
+seondeok 도구는 보지 않는다.
+seondeok 사람만이 본다.
+narrator 그러니 내가 네게 바라는 것은 충성이 아니라 시선이다.
+seola 시선……
+show character seondeok normal at center with fadeIn
+seondeok 네 혼례를 둘러싼 사람들이 무엇을 감추는지 보아라.
+seondeok 네 이름으로 누가 말하고 있는지 보아라.
+narrator 그리고 마지막에는, 네가 무엇을 선택할지 보아라.
+narrator 설아는 손을 꽉 쥔다.
+seola 제가 거절한다면요?
+seondeok 거절할 수 있다.
+show character seondeok normal2 at center with fadeIn
+seondeok 다만 거절한 뒤에도, 네 혼례는 그대로 너를 찾아올 것이다.
+seondeok 증표 확인식도 열릴 것이고, 네 이름을 대신 읽으려는 자도 멈추지 않을 것이다.
+narrator 설아는 눈을 감았다가 뜬다.
+seola 그렇다면 보겠습니다.
+narrator 연소하가 조용히 설아를 바라본다.
+narrator 하지만 전하께서도 약속해주십시오.
+seondeok 무엇을 말이냐.
+seola 제가 본 것을, 제 대신 판단하지 않겠다고요.
+narrator 여왕은 설아를 한참 바라본다.
+narrator 그리고 천천히 고개를 끄덕인다.
+show character seondeok normal at center with fadeIn
+seondeok 좋다.
+narrator 설아의 눈빛이 조금 단단해진다.
+seondeok 월령은 달의 명을 받되, 달빛 아래에서 자기 눈을 감아서는 안 된다.
+seondeok 네가 눈을 뜨고 있는 한, 나는 네 판단을 기다리겠다.
+narrator 설아는 깊이 고개를 숙인다.
+seola 그럼 저는…… 보겠습니다.
+seola 제가 무엇에 묶이려 하는지.
+narrator 그리고 무엇을 끊어야 하는지.
+narrator 선덕여왕은 설아에게 작은 달 문양의 표식을 건넨다.
+seola 화려하지 않은 나무패다.
+seola 작지만, 이상하게 무겁다.
+show character seondeok normal2 at center with fadeIn
+seondeok 이것은 권한이 아니라 책임이다.
+seondeok 문을 열어줄 수도 있지만, 네가 어디에 있는지 알리는 등불이 될 수도 있다.
+narrator 설아는 표식을 받아든다.
+seondeok 쓰는 순간, 너는 더 이상 아무것도 모르는 아이로 남을 수 없다.
+narrator 설아는 표식을 손안에 쥔다.
+seola 이미 늦은 것 같습니다.
+show character seondeok normal at center with fadeIn
+seondeok 그렇다면 늦은 사람답게 잘 보아라.
+
+--- 씬 L3288-L3379 [special_top] 화자: bihyung, seola, seondeok ---
+show scene special_top with fadeIn
+narrator 설아는 별당 밖으로 나온다.
+narrator 밤공기가 차갑다.
+show character seondeok normal at center with fadeIn
+seondeok 전하 앞에서는 똑바로 섰다.
+narrator 그러나 문이 닫히자마자 다리에 힘이 풀린다.
+narrator 비형이 곧장 다가와 설아의 팔을 받친다.
+show character bihyung normal at right with fadeIn
+bihyung 아가씨.
+seola 괜찮아.
+bihyung 괜찮지 않으십니다.
+seola 그럼…… 잠깐만.
+narrator 비형은 말없이 설아가 기둥에 기대도록 돕는다.
+narrator 연소하는 조금 떨어져 기다린다.
+narrator 도삼은 일부러 먼 곳을 보는 척한다.
+narrator 전하 앞에서는 고개를 들었다.
+narrator 내 눈으로 보겠다고 말했다.
+narrator 그런데 별당을 나오자마자
+narrator 다리에 힘이 풀렸다.
+narrator 월령.
+narrator 달의 명을 받은 자.
+narrator 나는 아직 내 혼례의 의미도 모르는데,
+narrator 누군가는 내게 달의 명을 말한다.
+narrator 그 순간, 이상하게 스승님이 떠올랐다.
+narrator 내가 모르는 것이 생길 때마다 찾아가던 서고의 등불.
+narrator 내 질문을 끝까지 들어주던 목소리.
+narrator 어려운 말 속에 답을 숨겨두던 사람.
+narrator 설아는 짧게 숨을 들이마신다.
+seola 비형.
+show character bihyung normal at right with fadeIn
+bihyung 예.
+seola 내가 이렇게 흔들리는 걸 보면 실망스럽지 않아?
+narrator 비형은 잠시 설아를 바라본다.
+show character bihyung surprised
+bihyung 흔들리지 않는 사람은 없습니다.
+seola …….
+bihyung 다만 아가씨는 흔들리면서도 서 계십니다.
+narrator 설아는 대답하지 못한다.
+show character bihyung normal
+bihyung 그 말이 차가운 밤공기 속에서 오래 남는다.
+bihyung 돌아가실까요?
+seola 서고에 가고 싶어.
+narrator 비형의 눈빛이 미세하게 변한다.
+show character bihyung normal at right with fadeIn
+bihyung 지금 말입니까?
+seola 응.
+bihyung 진관 어른께요?
+narrator 설아는 고개를 끄덕인다.
+bihyung 모든 것을 말씀하실 겁니까?
+narrator 설아는 품 안의 월령 표식을 느낀다.
+narrator 손끝이 떨린다.
+seola 모르겠어.
+show character bihyung angry at right with fadeIn
+bihyung 아가씨.
+seola 스승님께는 늘 물었어.
+seola 내가 모르는 글자도, 이상한 기록도, 마음에 걸리는 말도.
+seola 그런데 오늘은……
+narrator 설아는 말을 끝내지 못한다.
+narrator 연소하가 조용히 다가온다.
+seola 말해도 됩니까?
+seola 다들 겁주는 데 재주가 있네요.
+narrator 설아는 달빛 아래 손을 편다.
+seola 이걸 받았는데도, 아직 아무것도 결정하지 않은 것 같아.
+seola 받았는데도요?
+narrator 설아는 다시 표식을 품 안에 넣는다.
+seola 그럼 오늘은…… 아직 열지 않겠습니다.
+seola 대신 눈은 감지 않겠습니다.
+narrator 비형이 조용히 설아 곁에 선다.
+bihyung 서고까지 모시겠습니다.
+seola 비형.
+bihyung 예.
+seola 혹시 내가 말하지 못하더라도, 옆에 있어줄래?
+show character bihyung emotional
+bihyung 말하지 못하는 밤에도, 곁에 있겠습니다.
+narrator 설아는 아주 작게 고개를 끄덕인다.
+
+--- 씬 L3380-L3541 [park_library] 화자: bihyung, jingan, seola ---
+show scene park_library with fadeIn
+show character bihyung emotional at right with fadeIn
+bihyung 서고의 등불은 아직 켜져 있다.
+narrator 설아는 한참 문 앞에 선다.
+narrator 안쪽에서 박진관의 목소리가 들린다.
+show character jingan normal2 at center with fadeIn
+jingan 오늘은 문 앞에서 오래 서 있구나.
+narrator 설아는 숨을 고르고 문을 연다.
+seola 스승님은 정말 다 아십니다.
+jingan 다 아는 사람은 없다.
+jingan 다만 오래 본 아이의 망설임 정도는 알아듣는 법이지.
+narrator 설아는 서고 안으로 들어온다.
+narrator 박진관은 책상 위의 문서를 덮고, 설아에게 앉으라는 듯 손짓한다.
+show character jingan normal at center with fadeIn
+jingan 늦었다. 잠이 오지 않았느냐.
+seola 예.
+jingan 그럴 줄 알았다.
+jingan 네가 잠들지 못하는 밤에는 늘 질문이 있었지.
+narrator 설아는 조용히 앉는다.
+show character jingan normal2 at center with fadeIn
+jingan 품 안에 숨긴 월령 표식이 유난히 무겁게 느껴진다.
+jingan 물어보아라.
+seola 스승님.
+seola 만약 기록과 사람이 서로 다른 말을 하면, 무엇을 믿어야 합니까?
+narrator 박진관은 잠시 설아를 본다.
+jingan 오늘은 질문이 크구나.
+seola 대답도 크면 좋겠습니다.
+narrator 박진관은 희미하게 웃는다.
+show character jingan normal at center with fadeIn
+jingan 둘 다 믿지 말아라.
+narrator 설아가 고개를 든다.
+seola 둘 다요?
+jingan 기록은 쓰는 자의 손을 타고, 사람은 말하는 자의 마음을 탄다.
+jingan 둘 다 온전하지 않다.
+seola 그럼 무엇을 봐야 합니까?
+narrator 박진관은 빈 종이 한 장을 꺼내 설아 앞에 놓는다.
+show character jingan normal2 at center with fadeIn
+jingan 무엇이 보이느냐.
+seola 아무것도 없습니다.
+jingan 정말 아무것도 없느냐.
+narrator 설아는 종이를 등불 가까이 가져간다.
+narrator 빛에 비추자 희미한 눌림 자국이 보인다.
+seola 전에 쓴 글자의 자국이 남아 있습니다.
+narrator 박진관은 고개를 끄덕인다.
+jingan 빠진 것을 보아라.
+seola 빠진 것……
+show character jingan normal at center with fadeIn
+jingan 기록이 말하지 않는 곳.
+jingan 사람이 대답하지 않는 곳.
+jingan 문장이 갑자기 끊긴 곳.
+show character jingan normal2 at center with fadeIn
+jingan 너무 깨끗하게 지워진 곳.
+jingan 진실은 대개 그 빈칸에 숨는다.
+narrator 설아는 그 말을 천천히 되뇐다.
+seola 진실은 빈칸에 숨는다.
+jingan 네 눈은 빈칸을 잘 본다.
+seola 칭찬입니까?
+show character jingan worried at center with fadeIn
+jingan 걱정이다.
+narrator 설아가 작게 웃는다.
+seola 스승님 걱정은 늘 칭찬처럼 들립니다.
+jingan 네가 그렇게 듣고 싶은 것이겠지.
+narrator 짧은 침묵.
+narrator 박진관은 작은 나무패 하나를 꺼내 설아에게 준다.
+seola 이건 무엇입니까?
+jingan 서고 안쪽 문서고 출입패다.
+show character jingan normal at center with fadeIn
+jingan 아직 네게 줄 때는 아니지만, 네가 계속 묻게 될 것을 아니까.
+narrator 설아는 조심스럽게 출입패를 받는다.
+seola 저를 믿으시는 겁니까?
+jingan 믿지 않는 아이에게 이런 것을 주지는 않는다.
+narrator 설아의 표정이 잠시 환해진다.
+jingan 그 믿음이 기쁘다.
+narrator 그리고 동시에 가슴 한쪽이 무겁다.
+show character jingan normal2 at center with fadeIn
+jingan 품 안에는 또 다른 표식이 있다.
+jingan 월령의 표식.
+narrator 설아는 그것을 말하지 못한다.
+narrator 박진관은 설아의 얼굴을 살핀다.
+jingan 오늘은 질문이 적구나.
+narrator 설아의 손끝이 움찔한다.
+seola ……생각할 것이 많아서요.
+show character jingan normal at center with fadeIn
+jingan 예전의 너는 생각할 것이 많을수록 더 많이 물었다.
+seola 제가 변했습니까?
+jingan 아니.
+jingan 네가 무엇을 감추는 법을 배우기 시작했을 뿐이다.
+narrator 설아는 숨을 멈춘다.
+seola 감추는 것이 늘 나쁜 것은 아니지요?
+show character jingan normal2 at center with fadeIn
+jingan 그렇지.
+jingan 다만 감춘 것이 누구를 위한 것인지는 늘 물어야 한다.
+seola 누구를 위한 것인지……
+jingan 너 자신을 위한 침묵인지,
+show character jingan normal at center with fadeIn
+jingan 누군가를 지키기 위한 침묵인지,
+jingan 아니면 누군가에게 이용당하는 침묵인지.
+narrator 설아는 고개를 들지 못한다.
+jingan 말하지 않아도 된다.
+show character jingan normal2 at center with fadeIn
+jingan 네가 아직 말할 수 없다면, 묻는다고 진실이 나오지는 않겠지.
+seola 스승님을 믿지 못해서가 아닙니다.
+jingan 알고 있다.
+jingan 그 말에 설아는 조금 안도한다.
+show character jingan normal at center with fadeIn
+jingan 다만 기억하거라.
+jingan 침묵이 길어질수록, 그 침묵을 쓰려는 사람도 생긴다.
+seola 침묵도 누군가에게 쓰일 수 있습니까?
+jingan 말보다 더 잘 쓰일 때도 있다.
+narrator 설아는 품 안의 월령 표식을 느낀다.
+seola 그렇다면 저는…… 더 잘 보아야겠네요.
+show character jingan normal2 at center with fadeIn
+jingan 그래.
+jingan 네가 보려 한다면.
+narrator 잠시 후, 박진관은 따뜻한 차를 설아 앞에 밀어준다.
+jingan 눈을 비비지 말거라. 밤새 글을 보면 눈이 먼저 늙는다.
+narrator 설아는 자신도 모르게 눈가에 손을 가져가다 멈춘다.
+seola 스승님은 늘 글은 오래 남는다고 하시면서, 제 눈은 아끼라 하십니다.
+show character jingan normal at center with fadeIn
+jingan 글은 다시 베껴 쓸 수 있지만, 네 눈은 하나뿐이니.
+jingan 그 말은 따뜻했다.
+narrator 설아는 잠시 마음이 누그러진다.
+narrator 이런 순간마다 나는 다시 믿고 싶어졌다.
+narrator 스승님은 나를 막는 사람이 아니라,
+narrator 내가 다치지 않도록 오래 지켜본 사람이라고.
+narrator 하지만 오늘의 나는,
+narrator 처음으로 스승님께 모든 것을 말하지 못했다.
+jingan 오늘은 이만 가거라.
+show character jingan normal2 at center with fadeIn
+jingan 내일은 네가 생각하는 것보다 긴 날이 될 것이다.
+seola 첫 증표 확인식 때문입니까?
+jingan 그것도 있고.
+seola 또 무엇이 있습니까?
+narrator 박진관은 설아를 본다.
+jingan 네가 보는 것이 많아질수록, 네가 보지 못하는 것도 많아질 것이다.
+seola 그럼 더 보겠습니다.
+narrator 박진관은 낮게 웃는다.
+show character jingan normal at center with fadeIn
+jingan 역시 너답구나.
+narrator 설아는 고개를 숙이고 일어난다.
+narrator 문을 나서기 전, 그녀가 돌아본다.
+seola 스승님.
+jingan 왜 그러느냐.
+seola 저는 스승님께 거짓말하고 싶지 않습니다.
+narrator 박진관은 잠시 말이 없다.
+jingan 그 마음만은 잃지 말아라.
+narrator 설아는 대답하지 못하고 서고를 나간다.
+narrator 문밖에서 비형이 기다리고 있다.
+bihyung 괜찮으십니까?
+seola 모르겠어.
+show character bihyung sad
+bihyung 울고 싶으십니까?
+seola 아니.
+narrator 짧은 침묵.
+seola 조금만.
+narrator 비형은 아무 말 없이 설아 곁에 선다.
+seola 서고 안의 등불은 아직 꺼지지 않는다.
+
+--- 씬 L3542-L3636 [park_indoor] 화자: bihyung, seola ---
+show scene park_indoor with fadeIn
+narrator 설아는 다시 염색 공방으로 돌아온다.
+seola 자정이 가까워지자 저잣거리 소음은 사라지고, 물 떨어지는 소리만 들린다.
+narrator 연소하는 탁자 위에 작은 지도를 펼쳐놓고 있다.
+seola 지도에는 박씨 가문 별당, 저잣거리 북쪽 우물, 청류상단, 황룡사 인근 길목이 표시되어 있다.
+narrator 그리고 그 전에 청류상단 쪽 움직임이 조금 이상합니다.
+narrator 설아는 “청류상단”이라는 말에 고개를 든다.
+narrator 사담이 있는 곳이죠.
+seola 누군가 청류상단에 누명을 씌우려는 겁니까?
+narrator 사담은요?
+narrator 도삼은 바로 대답하지 않는다.
+seola 대답이 아닙니다.
+narrator 연소하가 도삼을 제지하듯 본다.
+seola 예전에는?
+narrator 연소하는 잠시 침묵한다.
+seola 그 침묵은 단어 하나를 꺼내기 전의 예의처럼 느껴졌다.
+narrator 공방 안의 공기가 차갑게 가라앉는다.
+narrator 설아는 푸른 유리구슬을 떠올린다.
+narrator 사담의 웃음.
+narrator 그리고 이름은 함부로 부르면 안 된다는 듯,
+narrator 사담은 늘 이름을 장난처럼 피했다.
+narrator 어쩌면 그가 피한 것은 자신의 이름이 아니라,
+narrator 이미 사라진 사람들의 이름이었을지도 모른다.
+seola 유월문……
+seola 왜요?
+narrator 설아는 사담이 언젠가 할 것 같은 말을 도삼이 먼저 했다고 느낀다.
+seola 그곳이 제 혼례와 무슨 관계입니까?
+narrator 연소하는 답하지 않는다.
+seola 또 말할 수 없습니까?
+seola 그럼 추측이라도 말해주세요.
+narrator 그리고 누군가는 그 조각을 이용해, 사담 혹은 청류상단을 의식의 자리로 끌어들이려 합니다.
+seola 의식의 자리라면…… 첫 증표 확인식?
+narrator 하지만 사담은 공식 후보가 아닐 수도 있잖아요.
+narrator 도삼과 연소하는 동시에 설아를 본다.
+narrator 설아는 그 반응을 놓치지 않는다.
+seola 아니군요.
+seola 다들 정말 그 말을 좋아하네요.
+narrator 비형이 조용히 묻는다.
+show character bihyung normal at right with fadeIn
+bihyung 확인식에서 어떤 일이 벌어질 가능성이 있습니까?
+narrator 연소하는 지도를 접는다.
+narrator 그리고 그 혼란 속에서 누군가 설아 낭자의 선택을 대신하려 할 가능성.
+narrator 설아는 손을 꽉 쥔다.
+seola 내 선택을……
+narrator 연소하가 조용히 말한다.
+seola 그럼 무엇을 봐야 합니까?
+narrator 그리고 누가 침묵하는지.
+narrator 설아는 품 안의 월령 표식과 서고 출입패를 동시에 느낀다.
+narrator 그리고 둘 다, 그녀를 더 깊은 곳으로 데려갈 물건이었다.
+narrator 그 이름을 듣는 순간,
+narrator 내가 밟고 있던 길 아래에
+narrator 훨씬 오래된 길이 묻혀 있다는 것을 알았다.
+narrator 사담은 왜 그 이름을 피했을까.
+narrator 문월함과 빈칸을 떠올리자, 설원랑이라면 이 침묵을 어떻게 읽었을지도 생각났다.
+narrator 그리고 검월식과 증표의 흔들림을 떠올리자, 무겸공자는 이 자리에서 검을 들었을지, 아니면 먼저 나를 막았을지 궁금해졌다.
+narrator 내일이면 첫 증표 확인식이 열린다.
+narrator 그곳에서 드러날 것은 정혼자의 이름일까.
+narrator 아니면 내가 아직 알지 못하는,
+narrator 더 오래된 거짓의 첫 글자일까.
+
+--- 씬 L3637-L3796 [park_outside] 화자: bihyung, dani, seola ---
+show scene park_outside with fadeIn
+narrator 설아는 가문으로 돌아온다.
+narrator 밤은 이미 깊고, 후원에는 서리가 내려 있다.
+narrator 단이는 몰래 기다리고 있다가 설아를 보자마자 달려온다.
+show character dani conspiratorial at left with fadeIn
+dani 아가씨!
+seola 쉿. 다들 깨겠어.
+dani 제가 먼저 죽겠습니다.
+show character dani crying
+dani 아가씨 때문에 심장이 하루에 열 번은 떨어집니다.
+seola 미안해.
+narrator 단이는 설아의 얼굴을 살핀다.
+show character dani worried
+dani 무슨 일이 있었습니까?
+narrator 설아는 잠시 대답하지 않는다.
+dani 그 표정은……
+show character dani normal at left with fadeIn
+dani 뭔가 아주 큰 걸 보고 오신 표정입니다.
+narrator 설아는 작게 웃는다.
+seola 내가 그렇게 티가 나?
+dani 아가씨는 남장보다 표정 숨기는 걸 먼저 배우셔야 합니다.
+narrator 설아는 단이를 바라보다, 품 안에서 작은 천 주머니를 꺼낸다.
+dani 그 안에는 푸른 유리구슬, 향합 천 조각, 서고 출입패, 월령 표식이 있다.
+narrator 단이는 그것들을 보고 숨을 삼킨다.
+show character dani normal at left with fadeIn
+dani 이게 다 뭡니까?
+seola 나도 아직 다 몰라.
+dani 아가씨가 모른다는 말이 요즘 자주 나옵니다.
+seola 그러게.
+narrator 설아는 후원 너머 별당 쪽을 바라본다.
+seola 내일 첫 증표 확인식이 열려.
+dani 예.
+seola 처음엔 그 자리에서 정혼자가 드러날 거라고 생각했어.
+show character dani conspiratorial at left with fadeIn
+dani 아니었습니까?
+narrator 설아는 대답하지 않는다.
+narrator 비형이 조용히 말한다.
+show character bihyung normal at right with fadeIn
+bihyung 내일은 많은 사람이 아가씨를 보게 될 것입니다.
+seola 응.
+narrator 그리고 아가씨께서도 많은 사람을 보셔야 합니다.
+narrator 설아는 비형을 본다.
+seola 비형.
+bihyung 예.
+seola 만약 내가 잘못 보면?
+show character bihyung angry at right with fadeIn
+bihyung 다시 보시면 됩니다.
+seola 그게 그렇게 쉬워?
+bihyung 쉽지 않습니다.
+bihyung 그래도 제가 옆에 있겠습니다.
+narrator 단이가 두 사람을 번갈아 보다가 조용히 한숨을 쉰다.
+dani 이제 저는 말려도 안 된다는 걸 압니다.
+seola 단아.
+dani 그래서 말리지 않겠습니다.
+show character dani normal at left with fadeIn
+dani 대신 내일은 제가 아가씨 옷매무새를 완벽하게 해드리겠습니다.
+seola 옷매무새?
+dani 예. 누가 아가씨 이름을 마음대로 읽으려 한다면, 적어도 아주 당당해 보이셔야죠.
+show character dani crying
+dani 흐트러진 머리로 맞서면 제가 억울합니다.
+narrator 설아는 웃는다.
+narrator 이번에는 조금 오래 웃는다.
+seola 고마워.
+narrator 단이는 설아의 손을 잡는다.
+show character dani crying
+dani 아가씨.
+seola 응.
+show character dani worried
+dani 정말 무서우시면, 방으로 돌아오셔도 됩니다.
+show character dani proud
+dani 아가씨 이름은 가문에도, 나라에도, 이상한 약속에도 있지만…… 제게는 그냥 아가씨 이름이니까요.
+narrator 설아의 눈빛이 흔들린다.
+seola 단아.
+dani 그러니 꼭 무언가를 증명하려고만 하지 마십시오.
+show character dani normal at left with fadeIn
+dani 아가씨가 다치지 않는 것도 중요합니다.
+narrator 설아는 단이의 손을 꼭 잡는다.
+seola 응.
+narrator 잠시 후, 설아는 달을 올려다본다.
+narrator 내일이면 첫 증표가 놓인다.
+narrator 금빛 증표.
+narrator 검의 장식.
+narrator 문서함의 기록.
+narrator 그리고 아직 이름을 알 수 없는 푸른 유리.
+narrator 그 모든 것 앞에서 누군가는 말할 것이다.
+narrator 정해진 자리로 돌아가라고.
+narrator 하지만 오늘 밤, 나는 두 개의 표식을 품에 넣었다.
+narrator 하나는 달의 명을 담은 표식.
+narrator 하나는 서고의 문을 여는 출입패.
+narrator 달과 글.
+narrator 명과 기록.
+narrator 나는 아직 어느 쪽도 온전히 믿지 못한다.
+narrator 하지만 내 눈만은 감지 않겠다.
+seola 내일은 보겠어.
+narrator 비형이 고개를 숙인다.
+show character bihyung normal at right with fadeIn
+bihyung 예.
+narrator 단이가 설아의 어깨에 겉옷을 둘러준다.
+dani 그럼 이제 주무십시오.
+dani 아니, 주무시는 척이라도 하십시오.
+show character dani normal at left with fadeIn
+dani 눈 밑이 이대로면 첫 증표 확인식이 아니라 밤샘 확인식이 됩니다.
+narrator 설아가 작게 웃는다.
+narrator 카메라는 천천히 후원 위의 달로 올라간다.
+narrator 달빛 아래 박씨 가문 별당이 조용히 보인다.
+narrator 첫 증표 확인식까지, 하루.
+narrator 설아는 아직 월령이라는 이름을 온전히 받아들인 것은 아니었다.
+narrator 다만, 더는 눈을 감은 아이로 남을 수 없었다.
+narrator 제3장 완료.
+narrator 정혼자는 이미 정해진 사람인가?
+narrator 아니면 내가 누구와 진실을 마주할지 선택하는 것인가?
+narrator 어젯밤, 나는 두 개의 표식을 품에 넣었다.
+narrator 하나는 달의 명을 담은 표식.
+narrator 하나는 서고의 문을 여는 출입패.
+narrator 하나는 나를 궁 안쪽의 비밀로 이끌었고,
+narrator 하나는 내가 가장 믿는 사람의 손에서 왔다.
+narrator 달과 글.
+narrator 명과 기록.
+narrator 나는 아직 어느 쪽도 온전히 믿지 못했다.
+narrator 하지만 오늘, 나는 세 개의 증표 앞에 서야 했다.
+narrator 금빛 증표.
+narrator 검의 장식.
+narrator 문서함의 기록.
+narrator 그리고 그 자리에 없지만,
+narrator 분명히 어딘가에서 나를 보고 있을 푸른 유리.
+narrator 스승님은 말씀하셨다.
+narrator 기록이 말하지 않는 곳을 보라고.
+narrator 사람이 대답하지 않는 곳을 보라고.
+narrator 문장이 갑자기 끊긴 곳,
+narrator 너무 깨끗하게 지워진 곳,
+narrator 그 빈칸에 진실이 숨는다고.
+narrator 나는 그 말을 믿었다.
+narrator 내가 읽는 법을 배운 것도,
+narrator 의심하는 법을 배운 것도,
+narrator 침묵 안에 숨은 뜻을 찾는 법을 배운 것도
+narrator 모두 스승님에게서였으니까.
+narrator 하지만 그날 아침,
+narrator 나는 처음으로 생각했다.
+narrator 혹시 빈칸이란,
+narrator 누군가 실수로 남긴 자리가 아니라
+narrator 누군가 일부러 비워둔 자리일 수도 있다고.
+
+--- 씬 L3832-L3880 [park_library] 화자: jingan, seola ---
+show scene park_library with fadeIn
+narrator 설아는 확인식 전, 마지막으로 서고에 들른다.
+narrator 박진관은 이미 의례 기록을 정리하고 있다.
+show character jingan normal2 at center with fadeIn
+jingan 이른 시간부터 왔구나.
+seola 오늘은 늦으면 안 될 것 같았습니다.
+jingan 첫 증표 확인식이니 당연하지.
+narrator 설아는 잠시 침묵한다.
+seola 스승님. 증표란 사람을 가리키는 것입니까, 아니면 약속을 가리키는 것입니까?
+narrator 박진관의 손이 잠시 멈춘다.
+jingan 증표는 사람을 가리키는 물건이 아니다.
+show character jingan normal at center with fadeIn
+jingan 사람이 제 자리에 섰는지를 확인하는 물건이지.
+seola 만약 증표가 셋이라면, 정혼자도 셋입니까?
+jingan 증표가 많다고 마음도 나뉘는 것은 아니다.
+seola 그럼 증표는 무엇을 고르는 겁니까?
+jingan 고르는 것이 아니다. 확인하는 것이다.
+show character jingan normal2 at center with fadeIn
+jingan 이미 정해진 자리가 흐트러지지 않았는지를.
+narrator 설아는 그 말을 조용히 받아 적듯 마음에 새긴다.
+seola 이미 정해진 자리라면, 제 뜻은 어디에 있습니까?
+jingan 의식은 마음을 묻는 자리가 아니다.
+jingan 흔들리는 마음을 제자리에 앉히는 자리다.
+narrator 설아는 미세하게 반발한다.
+seola 스승님은 늘 마음보다 자리를 먼저 말씀하십니다.
+show character jingan normal at center with fadeIn
+jingan 자리를 잃은 마음은 쉽게 흩어진다.
+seola 자리가 틀렸다면요?
+narrator 박진관의 눈이 잠깐 멈춘다.
+jingan 그럴 때일수록 더 오래 보아야 한다.
+jingan 자리가 틀린 것인지, 마음이 아직 그 자리를 모르는 것인지.
+narrator 설아는 품 안의 월령 표식과 서고 출입패를 동시에 느낀다.
+seola 오늘은…… 오래 보겠습니다.
+narrator 박진관은 설아를 바라본다.
+show character jingan normal2 at center with fadeIn
+jingan 보는 것만으로 끝나지 않을 수도 있다.
+seola 알고 있습니다.
+jingan 그런 눈이구나.
+seola 어떤 눈입니까?
+jingan 문 앞에 선 사람의 눈.
+narrator 설아는 대답하지 못한다.
+
+--- 씬 L3881-L3981 [park_outside] 화자: hwaryeon, jingan, mugyeom, seol, seola ---
+show scene park_outside with fadeIn
+narrator 별당 안에는 붉은 비단이 깔려 있다.
+narrator 중앙에는 낮은 탁자가 놓였고, 그 위에 아직 빈 자리들이 남아 있다.
+show character jingan normal at center with fadeIn
+jingan 향이 세 번 피워진다.
+narrator 첫 번째 향은 박씨 가문을 위해.
+narrator 두 번째 향은 아직 모습을 드러내지 않은 정혼자를 위해.
+narrator 세 번째 향은 이 혼례를 기억해야 할 사람들을 위해.
+narrator 설아는 세 번째 향이 이상하게 마음에 걸린다.
+narrator 이 혼례를 기억해야 할 사람들.
+narrator 그 안에 정작 나는 들어 있는 걸까.
+narrator 단이는 새벽 내내 손질한 옷매무새를 마지막까지 다듬어주었다.
+narrator 비형은 별당 기둥 그림자 가까이에 서 있다.
+narrator 김무겸은 공식 조사 명목으로 자리에 있고, 설원랑은 설씨 쪽 문서 사본을 들고 있다.
+narrator 사담의 자리는 비어 있다.
+narrator 그러나 설아는 안다.
+narrator 푸른 유리는 늘, 자리에 없어도 흔적을 남긴다.
+narrator 박윤량이 낮은 목소리로 의식의 시작을 알린다.
+narrator 김화련은 설아를 바라본다.
+narrator 걱정과 기대가 뒤섞인 눈빛이다.
+narrator 박겸수는 예물 목록을 들고 있다.
+narrator 그의 손끝이 조금 떨린다.
+narrator 박진관은 조용히 탁자 곁에 선다.
+jingan 증표를 올리겠습니다.
+narrator 첫 번째, 박씨 가문의 금월패가 놓인다.
+jingan 금빛 패 위에는 매화와 달 문양이 함께 새겨져 있다.
+narrator 그러나 설아는 금실 매듭이 한 번 풀렸다가 다시 묶인 흔적을 본다.
+narrator 매듭이 다르다.
+narrator 처음 묶은 손과,
+narrator 다시 묶은 손이 다르다.
+narrator 두 번째, 김씨 쪽 검월식이 놓인다.
+narrator 검 장식의 일부처럼 보이지만, 가장자리의 고리만 이상하게 새것 같다.
+narrator 김무겸의 눈이 그 고리에 잠깐 머문다.
+narrator 세 번째, 설씨 쪽 문월함 해석문이 놓인다.
+narrator 설원랑이 직접 가져온 사본이다.
+narrator 종이는 깨끗하지만, 너무 깨끗하다.
+narrator 설아는 그 깨끗함이 오히려 불편하다.
+show character jingan normal2 at center with fadeIn
+jingan 박씨의 금월패, 김씨의 검월식, 설씨의 문월함 해석문.
+jingan 세 증표가 한자리에 놓였으니, 오늘 확인식은 이로써—
+seola 하나가 부족합니다.
+narrator 모두의 시선이 설아에게 향한다.
+show character hwaryeon normal1 at left with fadeIn
+hwaryeon 설아야.
+narrator 설아는 탁자를 바라본다.
+seola 죄송합니다. 하지만 이 세 물건만으로는 완성된 것처럼 보이지 않습니다.
+narrator 박진관이 차분히 말한다.
+jingan 완성된 의식이 아닙니다. 확인식일 뿐이지요.
+seola 확인식이라면, 빠진 것도 확인해야 하지 않습니까?
+narrator 짧은 침묵.
+narrator 그 순간 별당 뒤편에서 작은 소란이 일어난다.
+narrator 비형이 조용히 움직이고, 곧 푸른 유리 조각 하나를 들고 들어온다.
+narrator 별당 뒤편 창가에 놓여 있었습니다.
+narrator 공기가 얼어붙는다.
+narrator 김무겸이 앞으로 한 걸음 나선다.
+hide character hwaryeon with fadeOut
+show character mugyeom normal at left with fadeIn
+mugyeom 청류상단 쪽 물건인가.
+narrator 설원랑이 유리 조각을 살핀다.
+hide character jingan with fadeOut
+show character seol normal at center with fadeIn
+seol 아니면 누군가 그렇게 보이게 하려는 물건이겠지요.
+narrator 설아는 푸른 유리를 본다.
+seol 작지만, 그 조각은 탁자 위의 세 증표만큼이나 강한 존재감을 갖고 있다.
+narrator 사담은 없다.
+narrator 그러나 그의 이름이 없는 자리가 가장 크게 느껴진다.
+narrator 박진관이 손을 든다.
+hide character seol with fadeOut
+show character jingan normal at center with fadeIn
+jingan 의식은 흔들림을 잠재우기 위해 있는 것입니다.
+jingan 오늘은 더 논하지 않는 것이 좋겠습니다.
+narrator 하지만 이제 막 흔들린 것 아닙니까?
+jingan 설아야. 때로는 흔들림을 더 흔들어서는 안 된다.
+seola 흔들림이 아니라, 빠진 것일 수도 있습니다.
+narrator 박진관의 시선이 설아에게 닿는다.
+show character jingan normal2 at center with fadeIn
+jingan 빠진 것을 보라 하였더니, 정말 빠진 것만 보는구나.
+jingan 그 말은 칭찬처럼 들렸지만, 이상하게도 설아의 가슴을 조였다.
+narrator 박윤량이 확인식을 중단한다.
+narrator 오늘 의식은 여기서 멈춘다.
+narrator 설아는 탁자 위의 네 흔적을 본다.
+narrator 금빛 증표.
+narrator 검의 장식.
+narrator 그리고 푸른 유리.
+narrator 세 증표가 모이면 정혼자의 이름이 드러난다.
+narrator 그렇게 들었다.
+narrator 하지만 내 앞에는 세 개가 아니라 네 개의 흔적이 있었다.
+narrator 그리고 그중 하나는,
+narrator 아무도 공식적으로 부르지 않은 이름을 향하고 있었다.
+
+--- 씬 L3982-L4070 [bookshop] 화자: seol, seola ---
+show scene bookshop with fadeIn
+narrator 설원랑은 문월함 해석문과 구본 일부를 펼친다.
+narrator 방 안에는 종이 냄새와 오래된 먹 냄새가 가득하다.
+show character seol serious at center with fadeIn
+seol 오늘 확인식에서 읽힌 문장은 이렇습니다.
+narrator “세 증표가 모이면 정혼자의 이름이 드러난다.”
+seola 제가 들은 말과 같습니다.
+narrator 하지만 구본의 눌림 자국을 보면, 원래 문장은 더 길었습니다.
+seol 그가 종이를 등불에 비춘다.
+narrator 설아는 눌림 자국을 본다.
+seola 빈칸……
+show character seol surprised
+seol 예?
+seola 스승님께서 그러셨어요.
+seola 진실은 대개 빈칸에 숨는다고.
+show character seol serious
+seol 좋은 스승을 두셨군요.
+seola 예.
+seola 대답은 자연스러웠다.
+narrator 하지만 어쩐지 가슴 한쪽이 서늘했다.
+narrator 설원랑이 눌림 자국을 읽는다.
+seola 증표는 이름을 정하지 않는다.
+seola 선택을 증명한다.
+seola 맹약을 이을 자……
+narrator 설아는 숨을 멈춘다.
+seola 정혼자의 이름이 드러난다…… 가 아니었군요.
+seol 그렇게 보입니다.
+seola 증표는 이름을 정하지 않는다. 선택을 증명한다.
+show character seol normal at center with fadeIn
+seol 만약 이 해석이 맞다면, 첫 증표 확인식은 정혼자를 발표하는 자리가 아니었습니다.
+seola 그럼 무엇을 확인하는 자리였습니까?
+show character seol serious
+seol 설아 낭자가 누구와 함께 오래된 약속을 이어갈 수 있는지.
+seol 혹은 누가 그 약속을 감당할 수 있는지.
+show character seol normal
+seol 그 가능성을 보는 자리였겠지요.
+seola 그럼 지금까지 모두가 제게 거짓말을 한 겁니까?
+show character seol normal
+seol 누군가 오래전에 말을 바꿨고, 그 뒤의 사람들은 바뀐 말을 진실처럼 배운 것일 수 있습니다.
+narrator 설아는 문월함 해석문을 내려다본다.
+seola 해석이 기록을 이길 수도 있군요.
+show character seol serious
+seol 때로는요.
+seol 그래서 해석하는 사람은 무섭습니다.
+narrator 설아는 박진관을 떠올린다.
+seola 좋은 제자는 스승을 의심하지 않습니다.
+narrator 설원랑은 조용히 고개를 젓는다.
+show character seol normal at center with fadeIn
+seol 아닙니다.
+seol 좋은 제자는 스승의 말도 읽습니다.
+seol 그것이 존경입니다.
+narrator 설아는 쉽게 대답하지 못한다.
+show character seol worried at center with fadeIn
+seol 믿는 사람을 읽는 일은, 믿지 않는 사람을 의심하는 것보다 훨씬 어렵습니다.
+seol 그래도 해야 합니다.
+seol 믿기 때문에요.
+narrator 설아의 손끝이 문서 가장자리를 누른다.
+show character seol normal at center with fadeIn
+seol 설아 낭자께서는 이미 읽기 시작했습니다.
+seol 스스로 눈치채지 못했을 뿐입니다.
+seola 제가요?
+seol 예.
+show character seol normal at center with fadeIn
+seol 오늘 별당에서 모두가 증표를 보았지만, 낭자께서는 빈자리를 보셨습니다.
+seol 그는 문서 위의 빈칸을 가리킨다.
+show character seol worried
+seol 기록을 읽는다는 것은 글자를 따라가는 일이 아닙니다.
+show character seol serious
+seol 글자가 피한 곳을 보는 일이지요.
+narrator 설아가 문서에 너무 가까이 다가가자, 설원랑은 등불을 조금 뒤로 물린다.
+seol 너무 가까이 보시면 오히려 안 보입니다.
+seola 기록도요?
+show character seol normal at center with fadeIn
+seol 사람도요.
+narrator 설아는 설원랑을 바라본다.
+seol 낭자께서 이 빈칸을 끝까지 읽으신다면,
+seol 저는 그 글자가 끊기는 곳까지 곁에서 대조하겠습니다.
+show character seol expressionless at center with fadeIn
+seol 조용한 말이었다.
+narrator 하지만 이상하게 오래 남았다.
+
+--- 씬 L4071-L4149 [park_outside] 화자: mugyeom, seola ---
+show scene park_outside with fadeIn
+narrator 김무겸은 훈련장 한쪽에서 검을 닦고 있다.
+narrator 설아가 다가가자 그는 돌아보지도 않고 말한다.
+show character mugyeom normal at left with fadeIn
+mugyeom 올 줄 알았다.
+seola 왜요?
+narrator 오늘 별당에서 네 얼굴이 묻고 있었으니까.
+seola 무엇을요?
+mugyeom 누가 거짓말하고 있느냐고.
+narrator 설아는 말없이 그 옆에 선다.
+seola 검월식이 진짜입니까?
+narrator 김무겸은 검 닦던 손을 멈춘다.
+show character mugyeom angry at left with fadeIn
+mugyeom 절반은.
+seola 절반이요?
+mugyeom 장식의 본체는 진짜다.
+narrator 하지만 가장자리의 고리는 새로 붙인 것이다.
+seola 왜 그런 걸 숨기셨습니까?
+narrator 김무겸이 설아를 본다.
+mugyeom 숨긴 게 아니다. 확인 중이었다.
+narrator 모두가 그렇게 말합니다. 확인 중이라고.
+show character mugyeom angry
+mugyeom 그럼 너는 확인 없이 사람을 베나?
+seola 저는 사람을 베지 않습니다.
+show character mugyeom angry
+mugyeom 말로 벨 수는 있겠지.
+narrator 설아는 대답하지 못한다.
+narrator 김무겸은 검월식 조각을 꺼낸다.
+mugyeom 은은한 달 문양이 새겨져 있다.
+show character mugyeom normal at left with fadeIn
+mugyeom 이 증표는 혼례 장식이 아니다.
+mugyeom 김씨가 박씨를 보호한다는 약조의 흔적이다.
+seola 보호요?
+mugyeom 그래.
+seola 그 보호가 저를 지키는 겁니까, 아니면 제 자리를 지키는 겁니까?
+narrator 김무겸은 잠시 침묵한다.
+show character mugyeom normal at left with fadeIn
+mugyeom 처음에는 같은 것이라 생각했다.
+seola 지금은요?
+narrator 김무겸은 설아를 똑바로 본다.
+mugyeom 모르겠다.
+mugyeom 그래서 확인하고 있다.
+narrator 설아는 조금 놀란다.
+seola 무겸공자께서도 모르는 걸 모른다고 하시네요.
+show character mugyeom worried
+mugyeom 모르는데 아는 척하는 자가 더 위험하다.
+show character mugyeom worried
+mugyeom 그 말이 설아의 가슴에 걸린다.
+mugyeom 처음엔 너를 의심했다.
+seola 지금은요?
+show character mugyeom sad
+mugyeom 지금은 네가 의심받게 될까 봐 걱정된다.
+narrator 설아의 눈이 흔들린다.
+narrator 김무겸은 시선을 피하듯 검을 검집에 넣는다.
+show character mugyeom angry
+mugyeom 네가 누구인지 확신하지 못했을 때도,
+mugyeom 다치게 두고 싶지는 않았다.
+narrator 짧은 침묵.
+seola 그건 보호입니까, 의심입니까?
+show character mugyeom normal at left with fadeIn
+mugyeom 둘 다였다.
+seola 지금은요?
+narrator 김무겸은 한 걸음 다가온다.
+mugyeom 지금은 네가 직접 묻고 있으니,
+mugyeom 나도 직접 답하려는 중이다.
+narrator 설아는 그를 바라본다.
+show character mugyeom normal at left with fadeIn
+mugyeom 혼자 움직이지 마라.
+seola 또 그 말입니까?
+mugyeom 그래. 또 그 말이다.
+seola 제가 듣지 않을 걸 아시잖아요.
+mugyeom 그래서 더 말하는 거다.
+narrator 짧은 침묵.
+show character mugyeom angry at left with fadeIn
+mugyeom 네가 끝까지 가겠다면, 적어도 내가 모르는 곳에서 다치지는 마라.
+
+--- 씬 L4150-L4198 [bookshop] 화자: mugyeom, seol, seola ---
+show scene bookshop with fadeIn
+show character mugyeom sad at left with fadeIn
+mugyeom 이 장면은 SCENE 4의 연장으로 이어져도 좋다.
+narrator 설원랑은 문월함 사본을 다시 접어 작은 천에 감싼다.
+show character seol serious at center with fadeIn
+seol 문제는 원문만이 아닙니다.
+seola 또 다른 게 있습니까?
+show character seol angry
+seol 이 해석문을 베껴 쓴 손입니다.
+narrator 손이요?
+show character seol serious
+seol 글씨는 사람을 닮습니다.
+show character seol surprised
+seol 급한 사람은 획 끝이 흔들리고, 숨기는 사람은 오히려 지나치게 단정해지지요.
+show character seol serious
+seol 그는 해석문 한 줄을 가리킨다.
+seol 이 부분만 지나치게 반듯합니다.
+seol 마치 아무 흔적도 남기지 않으려 한 것처럼.
+seola 너무 깨끗하게 지워진 곳……
+show character seol normal at center with fadeIn
+seol 예.
+seol 낭자의 스승께서 하신 말과 통하는군요.
+narrator 설아는 눈을 내린다.
+seol 설아 낭자.
+show character seol normal at center with fadeIn
+seol 그의 목소리가 부드러워진다.
+seol 누군가를 믿는 마음과, 그 사람이 남긴 글을 읽는 일은 서로 어긋나지 않습니다.
+narrator 하지만 읽다가 틀린 것을 발견하면요?
+show character seol worried
+seol 그때는 더 조심히 읽어야 합니다.
+seola 왜요?
+show character seol worried
+seol 틀린 것이 그 사람의 거짓인지,
+seol 그 사람도 믿었던 오래된 거짓인지 알아야 하니까요.
+narrator 설아는 그 말을 오래 곱씹는다.
+show character seol normal at center with fadeIn
+seol 설아 낭자께서 읽기 시작한 이상,
+seol 저는 그 글자가 끝나는 곳까지 곁에서 대조하겠습니다.
+seola 왜 그렇게까지 해주십니까?
+narrator 설원랑은 잠시 웃는다.
+seol 처음에는 궁금해서였습니다.
+seola 지금은요?
+show character seol normal at center with fadeIn
+seol 지금은……
+show character seol serious
+seol 낭자께서 혼자 읽기에는, 이 기록이 너무 오래되고 외로워 보여서요.
+narrator 설아는 대답하지 못한다.

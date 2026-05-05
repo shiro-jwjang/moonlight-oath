@@ -1,0 +1,158 @@
+
+--- L4103-L4107 [mugyeom] 5문장 ---
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 이 증표는 혼례 장식이 아니다.',
+'mugyeom 김씨가 박씨를 보호한다는 약조의 흔적이다.',
+'seola 보호요?',
+'mugyeom 그래.',
+'seola 그 보호가 저를 지키는 겁니까, 아니면 제 자리를 지키는 겁니까?',
+'narrator 김무겸은 잠시 침묵한다.',
+'show character mugyeom normal at left with fadeIn',
+
+--- L4110-L4116 [mugyeom] 5문장 ---
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 처음에는 같은 것이라 생각했다.',
+'seola 지금은요?',
+'narrator 김무겸은 설아를 똑바로 본다.',
+'mugyeom 모르겠다.',
+'mugyeom 그래서 확인하고 있다.',
+'narrator 설아는 조금 놀란다.',
+'seola 무겸공자께서도 모르는 걸 모른다고 하시네요.',
+'show character mugyeom worried',
+'mugyeom 모르는데 아는 척하는 자가 더 위험하다.',
+
+--- L4120-L4122 [mugyeom] 3문장 ---
+'show character mugyeom worried',
+'mugyeom 그 말이 설아의 가슴에 걸린다.',
+'mugyeom 처음엔 너를 의심했다.',
+'seola 지금은요?',
+'show character mugyeom sad',
+'mugyeom 지금은 네가 의심받게 될까 봐 걱정된다.',
+
+--- L4129-L4132 [mugyeom] 3문장 ---
+'show character mugyeom angry',
+'mugyeom 네가 누구인지 확신하지 못했을 때도,',
+'mugyeom 다치게 두고 싶지는 않았다.',
+'narrator 짧은 침묵.',
+'seola 그건 보호입니까, 의심입니까?',
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 둘 다였다.',
+
+--- L4134-L4139 [mugyeom] 4문장 ---
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 둘 다였다.',
+'seola 지금은요?',
+'narrator 김무겸은 한 걸음 다가온다.',
+'mugyeom 지금은 네가 직접 묻고 있으니,',
+'mugyeom 나도 직접 답하려는 중이다.',
+'narrator 설아는 그를 바라본다.',
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 혼자 움직이지 마라.',
+
+--- L4141-L4146 [mugyeom] 5문장 ---
+'show character mugyeom normal at left with fadeIn',
+'mugyeom 혼자 움직이지 마라.',
+'seola 또 그 말입니까?',
+'mugyeom 그래. 또 그 말이다.',
+'seola 제가 듣지 않을 걸 아시잖아요.',
+'mugyeom 그래서 더 말하는 거다.',
+'narrator 짧은 침묵.',
+'show character mugyeom angry at left with fadeIn',
+'mugyeom 네가 끝까지 가겠다면, 적어도 내가 모르는 곳에서 다치지는 마라.',
+
+--- L4166-L4169 [seol] 4문장 ---
+'show character seol serious',
+'seol 그는 해석문 한 줄을 가리킨다.',
+'seol 이 부분만 지나치게 반듯합니다.',
+'seol 마치 아무 흔적도 남기지 않으려 한 것처럼.',
+'seola 너무 깨끗하게 지워진 곳……',
+'show character seol normal at center with fadeIn',
+'seol 예.',
+
+--- L4171-L4174 [seol] 3문장 ---
+'show character seol normal at center with fadeIn',
+'seol 예.',
+'seol 낭자의 스승께서 하신 말과 통하는군요.',
+'narrator 설아는 눈을 내린다.',
+'seol 설아 낭자.',
+'show character seol normal at center with fadeIn',
+'seol 그의 목소리가 부드러워진다.',
+
+--- L4187-L4192 [seol] 5문장 ---
+'show character seol normal at center with fadeIn',
+'seol 설아 낭자께서 읽기 시작한 이상,',
+'seol 저는 그 글자가 끝나는 곳까지 곁에서 대조하겠습니다.',
+'seola 왜 그렇게까지 해주십니까?',
+'narrator 설원랑은 잠시 웃는다.',
+'seol 처음에는 궁금해서였습니다.',
+'seola 지금은요?',
+'show character seol normal at center with fadeIn',
+'seol 지금은……',
+
+--- L4208-L4211 [sadang] 3문장 ---
+'show character sadang serious at right with fadeIn',
+'sadang 그거 위험한 기분인데.',
+'seola 별당에 유리 조각을 둔 게 당신입니까?',
+'narrator 사담은 대답하지 않는다.',
+'seola 사담.',
+'narrator 그가 천천히 돌아본다.',
+'show character sadang serious',
+
+--- L4214-L4221 [sadang] 6문장 ---
+'show character sadang serious',
+'sadang 아니.',
+'seola 믿어도 됩니까?',
+'sadang 믿고 싶은 만큼만.',
+'seola 청류상단이 예전에는 다른 이름이었다고 들었습니다.',
+'wait 500',
+'narrator 사담의 손이 멈춘다.',
+'seola 유월문.',
+'seola 천막 안의 공기가 차갑게 굳는다.',
+'narrator 사담의 웃음이 사라진다.',
+'hide character seol with fadeOut',
+
+--- L4225-L4229 [sadang] 5문장 ---
+'show character sadang normal at center with fadeIn',
+'sadang 이름은 함부로 부르면 안 돼.',
+'sadang 어떤 이름은 부르는 순간, 죽은 사람들까지 돌아보거든.',
+'seola 당신은 그 이름과 무슨 관계입니까?',
+'sadang 오늘은 거기까지.',
+'seola 또 피하십니까?',
+'show character sadang normal at center with fadeIn',
+'sadang 응.',
+
+--- L4231-L4238 [sadang] 5문장 ---
+'show character sadang normal at center with fadeIn',
+'sadang 응.',
+'seola 왜요?',
+'narrator 사담은 푸른 유리 조각을 손안에 쥔다.',
+'sadang 아씨가 박씨라서.',
+'narrator 그리고 내가 아직, 박씨를 어디까지 믿어야 할지 몰라서.',
+'seola 저는 박씨 가문 전체가 아닙니다.',
+'sadang 알아.',
+'narrator 짧은 침묵.',
+'show character sadang angry at center with fadeIn',
+'sadang 그래서 아직 말하고 있는 거야.',
+
+--- L4240-L4246 [sadang] 4문장 ---
+'show character sadang angry at center with fadeIn',
+'sadang 그래서 아직 말하고 있는 거야.',
+'narrator 설아는 사담을 바라본다.',
+'seola 박씨라서 못 믿는다면, 왜 저를 도와줬습니까?',
+'narrator 사담은 잠시 웃는다.',
+'narrator 하지만 그 웃음은 평소처럼 가볍지 않다.',
+'sadang 이상하지.',
+'sadang 그는 설아에게 한 걸음 다가온다.',
+'show character sadang normal at center with fadeIn',
+'sadang 박씨라서 못 믿겠는데,',
+
+--- L4248-L4253 [sadang] 3문장 ---
+'show character sadang normal at center with fadeIn',
+'sadang 박씨라서 못 믿겠는데,',
+'sadang 아씨라서 자꾸 말하게 돼.',
+'wait 500',
+'narrator 설아는 숨을 멈춘다.',
+'narrator 사담은 다시 웃는다.',
+'sadang 이번엔 일부러 가볍게.',
+'show character sadang normal at center with fadeIn',
+'sadang 그러니까 더 묻지 마.',
