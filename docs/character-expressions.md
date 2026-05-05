@@ -119,7 +119,7 @@
 | 생각 | thinking | ❌ |
 | 한숨 | sigh | ❌ |
 
-## 설아 어머니 (seol_mother) — 8종 🆕
+## 김화련 (hwaryeon = 설아 어머니) — 8종 ✅ 스프라이트 연결 완료
 
 | 표정명 | 파일명 | 스크립트 사용 여부 |
 |--------|--------|-------------------|
@@ -134,8 +134,10 @@
 
 ## 비고
 
+- **김화련 = 설아 어머니**: 동일 인물. `seol_mother` 정의를 `hwaryeon`에 통합 (`directory: 'seol_mother'` 사용)
+
 - **dana** 폴더는 단이(단아)와 동일 인물의 복제. `normal` 1종만 보유.
 - **미사용 표정**이 많은 캐릭터: 단이(6종 미사용), 사담(7종 미사용)
 - `shocked`(놀람)는 단이 전용, `surprised`(놀람)는 나머지 캐릭터용
 - **캐릭터 ID 변경**: `jinkwan` → `jingan`, `yeowang` → `seondeok` (스프라이트 추가에 따른 통합)
-- 스프라이트 없는 캐릭터: `seola`(박설아), `hwaryeon`(김화련), `gyeomsu`(박겸수), `dosam`(도삼), `sonha`(연소하), `yunryang`(박윤량), `narrator`
+- 스프라이트 없는 캐릭터: `seola`(박설아), `gyeomsu`(박겸수), `dosam`(도삼), `sonha`(연소하), `yunryang`(박윤량), `narrator`

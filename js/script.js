@@ -154,15 +154,14 @@ monogatari.characters ({
 		directory: 'seol_father',
 		sprites: { normal: 'normal.webp', normal2: 'normal2.webp', angry: 'angry.webp', thinking: 'thinking.webp', sigh: 'sigh.webp' }
 	},
-	'seol_mother': {
-		name: '설아 어머니',
-		color: '#8b7a8b',
+	// Characters without sprites (name tag only, no directory/sprites)
+	'seola': { name: '박설아', color: '#e8a0bf' },
+	'hwaryeon': {
+		name: '김화련',
+		color: '#d4a5c9',
 		directory: 'seol_mother',
 		sprites: { normal: 'normal.webp', normal1: 'normal1.webp', worried: 'worried.webp', worried2: 'worried2.webp', worried3: 'worried3.webp', surprised: 'surprised.webp', firm: 'firm.webp', smile: 'smile.webp' }
 	},
-	// Characters without sprites (name tag only, no directory/sprites)
-	'seola': { name: '박설아', color: '#e8a0bf' },
-	'hwaryeon': { name: '김화련', color: '#d4a5c9' },
 	'jingan': {
 		name: '박진관',
 		color: '#8b7355',
