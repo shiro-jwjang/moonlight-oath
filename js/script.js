@@ -116,7 +116,7 @@ monogatari.characters ({
 		name: '김무겸',
 		color: '#c9a96e',
 		directory: 'mugyeom',
-		sprites: { normal: 'normal.webp', angry: 'angry.webp', surprised: 'surprised.webp', sad: 'sad.webp', happy: 'happy.webp', smile: 'smile.webp', worried: 'worried.webp' }
+		sprites: { normal: 'normal.webp', angry: 'angry.webp', surprised: 'surprised.webp', sad: 'sad.webp', happy: 'happy.webp', smile: 'smile.webp' }
 	},
 	'bihyung': {
 		name: '비형',
