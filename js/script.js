@@ -61,7 +61,7 @@ monogatari.assets ('scenes', {
 // ============================================================
 // Particles
 // ============================================================
-Monogatari.action('Particles').particles({
+monogatari.action('Particles').particles({
 	'snow': {
 		'particles': {
 			'number': { 'value': 120, 'density': { 'enable': true, 'value_area': 800 } },

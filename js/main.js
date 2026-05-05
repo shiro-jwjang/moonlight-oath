@@ -33,6 +33,8 @@ $_ready (() => {
 
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
+		const engine = customElements.get ('game-screen').engine;
+
 		// [워크어라운드] 배포 환경에서 storage.js의 monogatari.storage() 호출이
 		// init 이후에 평가되어 storageStructure에 flags가 포함되지 않는 문제 대응.
 		// 로컬에서는 정상 동작하나 배포(GitHub Pages)에서만 타이밍 이슈 발생.
@@ -60,7 +62,6 @@ $_ready (() => {
 		// shouldProceed() → isVisible() 체크에서 silent reject되는 이슈 대응
 		// 키보드 단축키(right/space)는 engine.proceed()를 직접 호출하므로 정상 동작.
 		// 마우스 클릭만 수동으로 engine.proceed()를 호출.
-		const engine = customElements.get ('game-screen').engine;
 		const gameScreen = document.querySelector ('[data-screen="game"]');
 
 		/**
@@ -104,6 +105,7 @@ $_ready (() => {
 		// [워크어라운드] 씬 전환 시 이전 캐릭터 자동 제거
 		// Monogatari.js는 show scene 시 캐릭터 스프라이트를 자동으로 지우지 않음.
 		// 매 씬 전환 시 화면에 남아있는 캐릭터를 모두 hide.
+		const origRun = engine.run.bind (engine);
 		engine.run = function (statement, advance = true) {
 			if (typeof statement === 'string' && /^\s*show scene\s/i.test (statement)) {
 				const visible = document.querySelectorAll (
