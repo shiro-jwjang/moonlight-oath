@@ -49,7 +49,7 @@
 
 ### 씬 전환 시 주의
 
-`show scene`으로 배경을 바꾸면 화면의 캐릭터는 자동으로 제거됨 (main.js 패치 적용). 하지만 명시적으로 `hide`해도 무방함.
+`show scene`으로 배경을 바꿔도 캐릭터 스프라이트는 **자동으로 제거되지 않음** (엔진 기본 동작). 반드시 `show scene` 전에 수동으로 `hide character`를 호출할 것.
 
 ### 퇴장 애니메이션
 
@@ -144,13 +144,13 @@ BGM 전환 시 페이드를 주면 자연스러움:
 'stop music fade 2',                        // BGM 정지 (필요시)
 'show background black',                    // 블랙아웃 (필요시)
 'wait 500',
-'show scene new_location with fadeIn',      // 배경 전환 (캐릭터 자동 제거)
+'show scene new_location with fadeIn',      // 배경 전환 (캐릭터 자동 제거 안 됨 — hide 필수)
 'play music new_bgm with fade 2 with loop', // 새 BGM (필요시)
 ```
 
 ### 화면 정리
 
-씬 전환 시 캐릭터는 `show scene`에 의해 자동 제거되지만, 명시적으로 정리하는 것도 좋음:
+`show scene` 전에 반드시 화면의 캐릭터를 수동으로 제거할 것. 엔진은 캐릭터를 자동으로 지워주지 않음.
 
 ```
 'hide character seol with fadeOut',
